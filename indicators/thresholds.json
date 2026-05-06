@@ -1,0 +1,20 @@
+{
+  "_meta": "Scoring anchors per indicator. Each {low, high} pair maps the indicator value to a 0-100 risk score via piecewise-linear interpolation. For 'inverted' indicators (where lower values = higher risk), low > high. These anchors are seeded from the historical distributions at NBER recession onsets (80th pct in -12 to 0 month window pre-peak) vs expansion median; scripts/compute_weights.py overwrites them with values computed from current FRED data.",
+  "yield_curve_10y3m": {"low": 1.5, "high": -0.5},
+  "yield_curve_10y2y": {"low": 1.5, "high": -0.5},
+  "sahm_rule": {"low": 0.0, "high": 0.5},
+  "initial_claims_yoy": {"low": -10.0, "high": 25.0},
+  "hy_credit_spread": {"low": 3.5, "high": 8.0},
+  "ism_pmi": {"low": 55.0, "high": 45.0},
+  "building_permits_yoy": {"low": 5.0, "high": -25.0},
+  "industrial_production_yoy": {"low": 3.0, "high": -3.0},
+  "weekly_hours_mfg": {"low": 41.0, "high": 39.5},
+  "umich_sentiment": {"low": 90.0, "high": 60.0},
+  "real_retail_sales_yoy": {"low": 3.0, "high": -2.0},
+  "sp500_drawdown": {"low": -5.0, "high": -25.0},
+  "real_m2_yoy": {"low": 5.0, "high": -2.0},
+  "copper_gold_ratio_yoy": {"low": 10.0, "high": -15.0},
+  "google_trends_recession": {"low": 20.0, "high": 75.0},
+  "rword_index": {"low": 50.0, "high": 500.0},
+  "lipstick_proxy": {"low": 0.0, "high": 20.0}
+}

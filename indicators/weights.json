@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "method": "AUC-derived weights with cluster redundancy adjustment. raw_weight = max(0, AUC - 0.5) * 2; correlated indicators share their cluster's max raw weight proportionally to individual AUC; weights normalized to sum to 1. AUCs are literature-anchored and verified by scripts/compute_weights.py against FRED data when run.",
+    "sources": {
+      "yield_curve_10y3m": "Estrella & Mishkin (1998); NY Fed Probability of Recession model",
+      "yield_curve_10y2y": "Bauer & Mertens (2018)",
+      "sahm_rule": "Sahm (2019)",
+      "hy_credit_spread": "Gilchrist & Zakrajsek (2012) Excess Bond Premium",
+      "ism_pmi": "Koenig (2002)",
+      "initial_claims_yoy": "Conference Board LEI replication",
+      "building_permits_yoy": "LEI component",
+      "industrial_production_yoy": "computed",
+      "weekly_hours_mfg": "LEI component",
+      "umich_sentiment": "LEI component (consumer expectations)",
+      "real_retail_sales_yoy": "computed",
+      "sp500_drawdown": "LEI component",
+      "real_m2_yoy": "former LEI component (deprecated 2012)",
+      "copper_gold_ratio_yoy": "computed",
+      "google_trends_recession": "Choi & Varian (2012)",
+      "rword_index": "The Economist heuristic",
+      "lipstick_proxy": "Hill et al. (2012) found mixed evidence; AUC ~ 0.5"
+    }
+  },
+  "building_permits_yoy": {"auc": 0.76, "weight": 0.1238},
+  "copper_gold_ratio_yoy": {"auc": 0.55, "weight": 0.0168},
+  "google_trends_recession": {"auc": 0.55, "weight": 0.0105},
+  "hy_credit_spread": {"auc": 0.85, "weight": 0.1357},
+  "industrial_production_yoy": {"auc": 0.72, "weight": 0.0419},
+  "initial_claims_yoy": {"auc": 0.82, "weight": 0.0922},
+  "ism_pmi": {"auc": 0.78, "weight": 0.0533},
+  "lipstick_proxy": {"auc": 0.50, "weight": 0.0000},
+  "real_m2_yoy": {"auc": 0.58, "weight": 0.0310},
+  "real_retail_sales_yoy": {"auc": 0.68, "weight": 0.0376},
+  "rword_index": {"auc": 0.52, "weight": 0.0042},
+  "sahm_rule": {"auc": 0.99, "weight": 0.1412},
+  "sp500_drawdown": {"auc": 0.62, "weight": 0.0403},
+  "umich_sentiment": {"auc": 0.66, "weight": 0.0334},
+  "weekly_hours_mfg": {"auc": 0.70, "weight": 0.0381},
+  "yield_curve_10y2y": {"auc": 0.89, "weight": 0.0963},
+  "yield_curve_10y3m": {"auc": 0.92, "weight": 0.1037}
+}
