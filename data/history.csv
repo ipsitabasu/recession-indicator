@@ -19,3 +19,23 @@ timestamp,indicator,value,score,weight,as_of,error
 2026-05-06T23:03:00.679362+00:00,lipstick_proxy,,,0.0,,"StooqFetchError: Failed to fetch el.us: Error tokenizing data. C error: Expected 1 fields in line 6, saw 2
 "
 2026-05-06T23:03:00.679362+00:00,_composite,32.982685429473406,32.982685429473406,1.0,2026-05-06,
+2026-05-06T23:11:34.500659+00:00,yield_curve_10y3m,0.67,41.5,0.1037,2026-05-06,
+2026-05-06T23:11:34.500659+00:00,yield_curve_10y2y,0.49,50.5,0.0963,2026-05-06,
+2026-05-06T23:11:34.500659+00:00,sahm_rule,0.2,40.0,0.1412,2026-03-01,
+2026-05-06T23:11:34.500659+00:00,initial_claims_yoy,-8.084163898117392,5.473817433950307,0.0922,2026-04-26,
+2026-05-06T23:11:34.500659+00:00,hy_credit_spread,2.77,0.0,0.1357,2026-05-05,
+2026-05-06T23:11:34.500659+00:00,ism_pmi,,,0.0533,,PmiFetchError: Failed to fetch ISM PMI: PMI mirror returned no data
+2026-05-06T23:11:34.500659+00:00,building_permits_yoy,-7.967589466576641,43.22529822192214,0.1238,2026-03-01,
+2026-05-06T23:11:34.500659+00:00,industrial_production_yoy,0.7416835246099485,37.63860792316753,0.0419,2026-03-01,
+2026-05-06T23:11:34.500659+00:00,weekly_hours_mfg,41.4,0.0,0.0381,2026-03-01,
+2026-05-06T23:11:34.500659+00:00,umich_sentiment,53.3,100.0,0.0334,2026-03-01,
+2026-05-06T23:11:34.500659+00:00,real_retail_sales_yoy,0.6618066392866551,46.7638672142669,0.0376,2026-03-01,
+2026-05-06T23:11:34.500659+00:00,sp500_drawdown,,,0.0403,,"StooqFetchError: Failed to fetch ^spx: Error tokenizing data. C error: Expected 1 fields in line 6, saw 2
+"
+2026-05-06T23:11:34.500659+00:00,real_m2_yoy,1.5892059322339946,48.725629539514365,0.031,2026-03-01,
+2026-05-06T23:11:34.500659+00:00,copper_gold_ratio_yoy,,,0.0168,,StooqFetchError: Stooq returned no data for hg.f
+2026-05-06T23:11:34.500659+00:00,google_trends_recession,,,0.0105,,TrendsFetchError: Failed Google Trends fetch: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+2026-05-06T23:11:34.500659+00:00,rword_index,68.0,4.0,0.0042,2026-05-06,
+2026-05-06T23:11:34.500659+00:00,lipstick_proxy,,,0.0,,"StooqFetchError: Failed to fetch el.us: Error tokenizing data. C error: Expected 1 fields in line 6, saw 2
+"
+2026-05-06T23:11:34.500659+00:00,_composite,32.84421736121748,32.84421736121748,1.0,2026-05-06,
