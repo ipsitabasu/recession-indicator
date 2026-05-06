@@ -47,7 +47,24 @@ a weight of zero by construction.
 
 ## Methodology
 
-### Why AUC?
+### The short version (no jargon)
+
+We track 17 things that historically shift *before* a recession started.
+Each one gets a danger reading from 0–100 based on where it sits compared to
+its own normal range. We don't treat all 17 equally — indicators with a long,
+documented record of calling recessions (the yield curve, the Sahm Rule,
+credit spreads) get more weight than cultural folklore (lipstick sales,
+Google searches). We also avoid double-counting indicators that say the same
+thing two different ways. The final score is a weighted average. Higher =
+more recession-like conditions; lower = healthy economy.
+
+It's a temperature check, not a verdict — the yield curve famously
+"predicted nine of the last five recessions". The point is to read the data
+yourself instead of trusting whoever shouted loudest on TV.
+
+### The technical version
+
+#### Why AUC?
 
 AUC (area under the ROC curve) is the standard metric in the recession-
 prediction literature. It answers: *"if I draw one recession month and one
@@ -61,7 +78,7 @@ This is the same family of methodology used by:
 - Sahm (2019) — real-time unemployment rule
 - Conference Board — Leading Economic Index methodology
 
-### Step 1 — Per-indicator weight
+#### Step 1 — Per-indicator weight
 
 ```
 raw_weight = max(0, AUC - 0.5) × 2
@@ -70,7 +87,7 @@ raw_weight = max(0, AUC - 0.5) × 2
 A no-skill indicator (AUC = 0.5) gets weight 0; a perfect indicator
 (AUC = 1.0) gets weight 1. Linear in skill above chance.
 
-### Step 2 — Redundancy adjustment
+#### Step 2 — Redundancy adjustment
 
 Indicators that measure the same underlying signal (e.g. 10Y–3M and 10Y–2Y
 yield spreads) are grouped into clusters. Within a cluster:
@@ -83,12 +100,12 @@ the cluster.
 Clusters: yield-curve · labor · credit · activity · housing · sentiment ·
 markets.
 
-### Step 3 — Normalize
+#### Step 3 — Normalize
 
 Final weights sum to 1. Composite = weighted average of indicator scores
 on the 0–100 scale.
 
-### Per-indicator scoring
+#### Per-indicator scoring
 
 Each indicator value maps to a 0–100 risk score by piecewise-linear
 interpolation between two anchors derived from its historical distribution
@@ -100,7 +117,7 @@ at NBER recession onsets vs expansion months:
 For "inverted" indicators where lower values mean higher risk (yield
 curve, PMI, permits, etc.), the scoring direction is flipped at score time.
 
-### Tiers
+#### Tiers
 
 | Composite | Tier |
 |-----------|------|

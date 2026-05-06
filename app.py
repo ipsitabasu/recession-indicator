@@ -202,31 +202,67 @@ def main() -> None:
         else:
             st.info("Not enough history yet.")
 
-    with st.expander("Methodology"):
+    with st.expander("How this works"):
         st.markdown("""
-**Weighting** — each indicator's weight comes from its **AUC** (area under the ROC curve)
-for predicting NBER recessions at a 12-month-ahead horizon. AUC is the standard
-metric in the recession-prediction literature (Estrella & Mishkin 1998; Sahm 2019;
-Gilchrist & Zakrajšek 2012).
+**The short version**
 
-`raw_weight = max(0, AUC - 0.5) × 2` so a no-skill indicator (AUC = 0.5) has weight
-zero and a perfect indicator (AUC = 1.0) has weight one.
+We track 17 things that have historically shifted *before* a recession started.
+Each one gets a danger reading from 0–100 based on where it sits compared to
+its own normal range. The final score is a weighted average of those readings.
 
-**Redundancy adjustment** — correlated indicators are grouped into clusters
-(e.g. 10Y-3M and 10Y-2Y are both yield-curve signals). Within a cluster, the
-combined effective weight equals the strongest member's raw weight; each
-member's share is proportional to its own AUC. This prevents double-counting
-without flattening the AUC ranking.
+**How we score each indicator**
 
-**Scoring** — each indicator value maps to a 0-100 risk score by piecewise-linear
-interpolation between two anchors derived from its historical distribution at
-NBER recession onsets vs expansion months.
+For every indicator we look at its history. What did it look like in healthy
+times? What did it look like in the year before past recessions started? Today's
+value is placed on that scale: deep in "healthy territory" → 0, deep in
+"pre-recession territory" → 100, somewhere in between → linearly interpolated.
 
-**Composite** — weighted average of indicator scores, with weights renormalized to
-the sum of indicators that returned data (so a missed fetch doesn't poison the score).
+**How we weight each indicator**
 
-Run `python scripts/compute_weights.py` to recompute weights and thresholds from
-current FRED data.
+Not all 17 deserve equal say. Some — like the yield curve, the Sahm Rule, and
+credit spreads — have a long, well-documented record of moving before recessions
+(decades of academic work backs them up). Others — lipstick sales, Google
+searches for "recession", news mentions — are more cultural folklore.
+
+So each indicator's weight reflects how well it has *actually* called past
+recessions in the data:
+
+- A perfect predictor gets full weight
+- A coin-flip predictor gets zero weight
+- Real indicators land somewhere in between
+
+Result: the Sahm Rule, high-yield credit spreads, building permits, and yield
+curves account for over **60%** of the score combined. The unconventional
+indicators add up to **~3%** — they're here for color, not signal.
+
+**No double-counting**
+
+The 10Y–3M and 10Y–2Y yield spreads are basically the same signal in two
+outfits, so we don't let them count twice. Same for indicators that move
+together (e.g. industrial production and PMI). Indicators that overlap share
+their combined weight — strongest member gets the largest share.
+
+**What the score means**
+
+| Score | Tier | What it means |
+|-------|------|---------------|
+| 0–25 | Low | No clear warning signs across the leading indicators |
+| 25–50 | Moderate | Some softening, nothing decisive |
+| 50–70 | Elevated | Multiple historically reliable signals are flashing |
+| 70–100 | High | Reading typical of the months just before past recessions |
+
+**One caveat to keep in mind**
+
+None of this *proves* a recession is coming. The yield curve has, half-jokingly,
+"predicted nine of the last five recessions." Treat this as a temperature check,
+not a verdict. The point is to read the actual data yourself instead of relying
+on whoever yelled loudest on TV that morning.
+
+---
+
+For the technical version (AUC@12-month NBER prediction, cluster correlation
+adjustment, threshold derivation), see the README on [GitHub]
+(https://github.com/ipsitabasu/recession-indicator).
         """)
 
 
