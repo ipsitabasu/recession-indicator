@@ -41,6 +41,8 @@ def load_history() -> pd.DataFrame:
     if not HISTORY.exists():
         return pd.DataFrame(columns=["timestamp", "indicator", "value", "score", "weight", "as_of", "error"])
     df = pd.read_csv(HISTORY, parse_dates=["timestamp"])
+    if pd.api.types.is_datetime64tz_dtype(df["timestamp"]):
+        df["timestamp"] = df["timestamp"].dt.tz_localize(None)
     return df
 
 
