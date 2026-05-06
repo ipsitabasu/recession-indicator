@@ -7,10 +7,6 @@ on:
   workflow_dispatch: {}
   push:
     branches: [main]
-    paths:
-      - 'indicators/**'
-      - 'scoring.py'
-      - 'refresh.py'
 
 permissions:
   contents: write
