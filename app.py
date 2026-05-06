@@ -12,6 +12,7 @@ ROOT = Path(__file__).parent
 DATA_DIR = ROOT / "data"
 LATEST = DATA_DIR / "latest.json"
 HISTORY = DATA_DIR / "history.csv"
+WEIGHTS_FILE = ROOT / "indicators" / "weights.json"
 
 # NBER recession dates (US, post-1950) for chart shading
 NBER_RECESSIONS = [
@@ -34,6 +35,13 @@ def load_latest() -> dict | None:
     if not LATEST.exists():
         return None
     return json.loads(LATEST.read_text())
+
+
+@st.cache_data(ttl=600)
+def load_weights() -> dict:
+    if not WEIGHTS_FILE.exists():
+        return {}
+    return json.loads(WEIGHTS_FILE.read_text())
 
 
 @st.cache_data(ttl=600)
@@ -204,45 +212,86 @@ def main() -> None:
 
     with st.expander("How this works"):
         st.markdown("""
-**The short version**
+### The short version
 
 We track 17 things that have historically shifted *before* a recession started.
 Each one gets a danger reading from 0–100 based on where it sits compared to
 its own normal range. The final score is a weighted average of those readings.
 
-**How we score each indicator**
+### How we score each indicator
 
 For every indicator we look at its history. What did it look like in healthy
 times? What did it look like in the year before past recessions started? Today's
 value is placed on that scale: deep in "healthy territory" → 0, deep in
-"pre-recession territory" → 100, somewhere in between → linearly interpolated.
+"pre-recession territory" → 100, in between → linearly interpolated.
 
-**How we weight each indicator**
+### How the weights were decided
 
-Not all 17 deserve equal say. Some — like the yield curve, the Sahm Rule, and
-credit spreads — have a long, well-documented record of moving before recessions
-(decades of academic work backs them up). Others — lipstick sales, Google
-searches for "recession", news mentions — are more cultural folklore.
+The weights aren't picks or guesses. For each indicator we ask one specific
+question against the historical data:
 
-So each indicator's weight reflects how well it has *actually* called past
-recessions in the data:
+> *"Looking at every month since the 1960s, how often does this indicator's
+> reading correctly distinguish 'a recession is starting in 12 months' from
+> 'no recession is starting'?"*
 
-- A perfect predictor gets full weight
-- A coin-flip predictor gets zero weight
-- Real indicators land somewhere in between
+That number — call it **predictive accuracy** — runs from 50% (coin flip,
+useless) to 100% (perfect oracle). The Sahm Rule scores ~99% (it has flagged
+every recession since 1970 with zero false positives). The lipstick proxy
+scores ~50% (no signal). Most indicators land in between.
 
-Result: the Sahm Rule, high-yield credit spreads, building permits, and yield
-curves account for over **60%** of the score combined. The unconventional
-indicators add up to **~3%** — they're here for color, not signal.
+The weight is then:
 
-**No double-counting**
+> **`weight = (predictive accuracy − 50%) × 2`**, then renormalized.
+
+So a perfect indicator earns full weight, a coin flip earns zero, and
+everything else gets credit proportional to the skill it has *actually*
+demonstrated against past recessions.
+
+The accuracy numbers come from peer-reviewed economics research where
+available — **Estrella & Mishkin (1998)** for the yield curve,
+**Sahm (2019)** for the unemployment rule, **Gilchrist & Zakrajšek (2012)**
+for credit spreads, the **Conference Board's Leading Economic Index**
+methodology for permits and weekly hours — and from our own replication on
+FRED data for the rest. You can re-run the analysis any time with
+`python scripts/compute_weights.py`.
+        """)
+
+        weights = load_weights()
+        sources = weights.get("_meta", {}).get("sources", {})
+        rows = []
+        latest_inds = {i["key"]: i for i in (latest["indicators"] if latest else [])}
+        for key, w in weights.items():
+            if key.startswith("_"):
+                continue
+            rows.append({
+                "Indicator": latest_inds.get(key, {}).get("name", key),
+                "Predictive accuracy": f"{int(round(w['auc'] * 100))}%",
+                "Weight": f"{w['weight'] * 100:.2f}%",
+                "_weight_num": w["weight"],
+                "Why this weight": sources.get(key, ""),
+            })
+        rows.sort(key=lambda r: -r["_weight_num"])
+        for r in rows:
+            r.pop("_weight_num")
+        st.dataframe(pd.DataFrame(rows), hide_index=True, use_container_width=True)
+
+        st.markdown("""
+The unconventional indicators — lipstick, R-word, Google Trends, copper/gold
+— get tiny or zero weight by design. They're here for color and because they
+get cited in the press, but the math correctly down-weights them. Their
+combined contribution is **under 3%** of the score.
+
+### One more wrinkle: no double-counting
 
 The 10Y–3M and 10Y–2Y yield spreads are basically the same signal in two
-outfits, so we don't let them count twice. Same for indicators that move
-together (e.g. industrial production and PMI). Indicators that overlap share
-their combined weight — strongest member gets the largest share.
+outfits. If both got their full individual weight, the yield curve would
+dominate the score. So we group correlated indicators into clusters
+(yield-curve, labor, credit, factory activity, housing, sentiment, markets)
+and let each cluster contribute as much weight as its strongest member —
+the others share that weight proportionally. Same idea for industrial
+production vs. ISM PMI.
 
-**What the score means**
+### What the score means
 
 | Score | Tier | What it means |
 |-------|------|---------------|
@@ -251,18 +300,18 @@ their combined weight — strongest member gets the largest share.
 | 50–70 | Elevated | Multiple historically reliable signals are flashing |
 | 70–100 | High | Reading typical of the months just before past recessions |
 
-**One caveat to keep in mind**
+### One caveat to keep in mind
 
-None of this *proves* a recession is coming. The yield curve has, half-jokingly,
-"predicted nine of the last five recessions." Treat this as a temperature check,
-not a verdict. The point is to read the actual data yourself instead of relying
-on whoever yelled loudest on TV that morning.
+None of this *proves* a recession is coming. The yield curve has, half
+jokingly, "predicted nine of the last five recessions." Treat this as a
+temperature check, not a verdict. The point is to read the actual data
+yourself instead of relying on whoever yelled loudest on TV that morning.
 
 ---
 
-For the technical version (AUC@12-month NBER prediction, cluster correlation
-adjustment, threshold derivation), see the README on [GitHub]
-(https://github.com/ipsitabasu/recession-indicator).
+For the technical version (AUC at 12-month NBER prediction, cluster
+correlation adjustment, threshold derivation), see the README on
+[GitHub](https://github.com/ipsitabasu/recession-indicator).
         """)
 
 
