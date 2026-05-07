@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-05-06T23:17:22.088244+00:00",
-  "composite": 32.84,
+  "timestamp": "2026-05-07T08:36:31.334396+00:00",
+  "composite": 32.83,
   "tier": "Moderate",
   "indicators": [
     {
@@ -205,10 +205,10 @@
       "cluster": "sentiment",
       "weight": 0.0042,
       "auc": 0.52,
-      "value": 68.0,
-      "score": 4.0,
-      "contribution": 0.02,
-      "as_of": "2026-05-06",
+      "value": 20.0,
+      "score": 0.0,
+      "contribution": 0.0,
+      "as_of": "2026-05-07",
       "error": null
     },
     {
