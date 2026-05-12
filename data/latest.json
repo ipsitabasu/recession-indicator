@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-05-11T09:43:13.950691+00:00",
-  "composite": 29.94,
+  "timestamp": "2026-05-12T08:43:17.649118+00:00",
+  "composite": 29.82,
   "tier": "Moderate",
   "indicators": [
     {
@@ -10,10 +10,10 @@
       "cluster": "yield-curve",
       "weight": 0.1037,
       "auc": 0.92,
-      "value": 0.69,
-      "score": 40.5,
-      "contribution": 4.78,
-      "as_of": "2026-05-08",
+      "value": 0.72,
+      "score": 39.0,
+      "contribution": 4.6,
+      "as_of": "2026-05-11",
       "error": null
     },
     {
@@ -23,10 +23,10 @@
       "cluster": "yield-curve",
       "weight": 0.0963,
       "auc": 0.89,
-      "value": 0.48,
-      "score": 51.0,
-      "contribution": 5.59,
-      "as_of": "2026-05-08",
+      "value": 0.47,
+      "score": 51.5,
+      "contribution": 5.64,
+      "as_of": "2026-05-11",
       "error": null
     },
     {
@@ -62,10 +62,10 @@
       "cluster": "credit",
       "weight": 0.1357,
       "auc": 0.85,
-      "value": 2.79,
+      "value": 2.81,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-05-07",
+      "as_of": "2026-05-08",
       "error": null
     },
     {
@@ -205,10 +205,10 @@
       "cluster": "sentiment",
       "weight": 0.0042,
       "auc": 0.52,
-      "value": 22.0,
+      "value": 16.0,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-12",
       "error": null
     },
     {
