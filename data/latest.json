@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-16T08:06:57.980571+00:00",
+  "timestamp": "2026-05-17T08:24:06.219424+00:00",
   "composite": 27.77,
   "tier": "Moderate",
   "indicators": [
@@ -205,10 +205,10 @@
       "cluster": "sentiment",
       "weight": 0.0042,
       "auc": 0.52,
-      "value": 32.0,
+      "value": 3.0,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-05-16",
+      "as_of": "2026-05-17",
       "error": null
     },
     {
