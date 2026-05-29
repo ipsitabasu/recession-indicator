@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-05-28T10:06:07.822492+00:00",
-  "composite": 25.06,
+  "timestamp": "2026-05-29T09:57:33.643660+00:00",
+  "composite": 26.43,
   "tier": "Moderate",
   "indicators": [
     {
@@ -10,10 +10,10 @@
       "cluster": "yield-curve",
       "weight": 0.1037,
       "auc": 0.92,
-      "value": 0.8,
-      "score": 35.0,
-      "contribution": 4.13,
-      "as_of": "2026-05-27",
+      "value": 0.76,
+      "score": 37.0,
+      "contribution": 4.36,
+      "as_of": "2026-05-28",
       "error": null
     },
     {
@@ -23,10 +23,10 @@
       "cluster": "yield-curve",
       "weight": 0.0963,
       "auc": 0.89,
-      "value": 0.48,
-      "score": 51.0,
-      "contribution": 5.59,
-      "as_of": "2026-05-27",
+      "value": 0.46,
+      "score": 52.0,
+      "contribution": 5.7,
+      "as_of": "2026-05-28",
       "error": null
     },
     {
@@ -49,10 +49,10 @@
       "cluster": "labor",
       "weight": 0.0922,
       "auc": 0.82,
-      "value": -11.764705882352944,
-      "score": 0.0,
-      "contribution": 0.0,
-      "as_of": "2026-05-17",
+      "value": -8.633879781420761,
+      "score": 3.9,
+      "contribution": 0.41,
+      "as_of": "2026-05-24",
       "error": null
     },
     {
@@ -62,10 +62,10 @@
       "cluster": "credit",
       "weight": 0.1357,
       "auc": 0.85,
-      "value": 2.72,
+      "value": 2.71,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-05-26",
+      "as_of": "2026-05-27",
       "error": null
     },
     {
@@ -88,9 +88,9 @@
       "cluster": "housing",
       "weight": 0.1238,
       "auc": 0.76,
-      "value": -0.20761245674740803,
-      "score": 17.36,
-      "contribution": 2.44,
+      "value": -1.52249134948097,
+      "score": 21.74,
+      "contribution": 3.06,
       "as_of": "2026-04-01",
       "error": null
     },
@@ -205,10 +205,10 @@
       "cluster": "sentiment",
       "weight": 0.0042,
       "auc": 0.52,
-      "value": 35.0,
+      "value": 24.0,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-05-28",
+      "as_of": "2026-05-29",
       "error": null
     },
     {
