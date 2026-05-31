@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-05-30T08:30:15.583304+00:00",
-  "composite": 26.43,
+  "timestamp": "2026-05-31T08:48:35.944336+00:00",
+  "composite": 26.5,
   "tier": "Moderate",
   "indicators": [
     {
@@ -12,8 +12,8 @@
       "auc": 0.92,
       "value": 0.76,
       "score": 37.0,
-      "contribution": 4.36,
-      "as_of": "2026-05-28",
+      "contribution": 4.39,
+      "as_of": "2026-05-29",
       "error": null
     },
     {
@@ -23,10 +23,10 @@
       "cluster": "yield-curve",
       "weight": 0.0963,
       "auc": 0.89,
-      "value": 0.46,
-      "score": 52.0,
-      "contribution": 5.7,
-      "as_of": "2026-05-28",
+      "value": 0.47,
+      "score": 51.5,
+      "contribution": 5.67,
+      "as_of": "2026-05-29",
       "error": null
     },
     {
@@ -38,7 +38,7 @@
       "auc": 0.99,
       "value": 0.13,
       "score": 26.0,
-      "contribution": 4.18,
+      "contribution": 4.2,
       "as_of": "2026-04-01",
       "error": null
     },
@@ -90,7 +90,7 @@
       "auc": 0.76,
       "value": -1.52249134948097,
       "score": 21.74,
-      "contribution": 3.06,
+      "contribution": 3.08,
       "as_of": "2026-04-01",
       "error": null
     },
@@ -129,7 +129,7 @@
       "auc": 0.66,
       "value": 49.8,
       "score": 100.0,
-      "contribution": 3.8,
+      "contribution": 3.82,
       "as_of": "2026-04-01",
       "error": null
     },
@@ -142,7 +142,7 @@
       "auc": 0.68,
       "value": 1.0542101853741714,
       "score": 38.92,
-      "contribution": 1.66,
+      "contribution": 1.67,
       "as_of": "2026-04-01",
       "error": null
     },
@@ -168,7 +168,7 @@
       "auc": 0.58,
       "value": 1.1287996371884823,
       "score": 55.3,
-      "contribution": 1.95,
+      "contribution": 1.96,
       "as_of": "2026-04-01",
       "error": null
     },
@@ -205,11 +205,11 @@
       "cluster": "sentiment",
       "weight": 0.0042,
       "auc": 0.52,
-      "value": 14.0,
-      "score": 0.0,
+      "value": null,
+      "score": null,
       "contribution": 0.0,
-      "as_of": "2026-05-30",
-      "error": null
+      "as_of": null,
+      "error": "RwordFetchError: Failed GDELT fetch: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=recession%20sourcecountry:US%20sourcelang:english&mode=timelinevolraw&format=json&timespan=24m"
     },
     {
       "key": "lipstick_proxy",
