@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-06-02T10:27:08.390838+00:00",
-  "composite": 27.06,
+  "timestamp": "2026-06-03T11:02:53.428956+00:00",
+  "composite": 25.76,
   "tier": "Moderate",
   "indicators": [
     {
@@ -10,11 +10,11 @@
       "cluster": "yield-curve",
       "weight": 0.1037,
       "auc": 0.92,
-      "value": 0.69,
-      "score": 40.5,
-      "contribution": 4.78,
-      "as_of": "2026-06-01",
-      "error": null
+      "value": null,
+      "score": null,
+      "contribution": 0.0,
+      "as_of": null,
+      "error": "FredFetchError: Failed to fetch T10Y3M: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30.0)"
     },
     {
       "key": "yield_curve_10y2y",
@@ -23,11 +23,11 @@
       "cluster": "yield-curve",
       "weight": 0.0963,
       "auc": 0.89,
-      "value": 0.42,
-      "score": 54.0,
-      "contribution": 5.92,
-      "as_of": "2026-06-01",
-      "error": null
+      "value": null,
+      "score": null,
+      "contribution": 0.0,
+      "as_of": null,
+      "error": "FredFetchError: Failed to fetch T10Y2Y: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30.0)"
     },
     {
       "key": "sahm_rule",
@@ -38,7 +38,7 @@
       "auc": 0.99,
       "value": 0.13,
       "score": 26.0,
-      "contribution": 4.18,
+      "contribution": 6.74,
       "as_of": "2026-04-01",
       "error": null
     },
@@ -49,11 +49,11 @@
       "cluster": "labor",
       "weight": 0.0922,
       "auc": 0.82,
-      "value": -8.633879781420761,
-      "score": 3.9,
-      "contribution": 0.41,
-      "as_of": "2026-05-24",
-      "error": null
+      "value": null,
+      "score": null,
+      "contribution": 0.0,
+      "as_of": null,
+      "error": "FredFetchError: Failed to fetch IC4WSA: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30.0)"
     },
     {
       "key": "hy_credit_spread",
@@ -62,10 +62,10 @@
       "cluster": "credit",
       "weight": 0.1357,
       "auc": 0.85,
-      "value": 2.74,
+      "value": 2.72,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-05-31",
+      "as_of": "2026-06-01",
       "error": null
     },
     {
@@ -90,7 +90,7 @@
       "auc": 0.76,
       "value": -1.52249134948097,
       "score": 21.74,
-      "contribution": 3.06,
+      "contribution": 4.94,
       "as_of": "2026-04-01",
       "error": null
     },
@@ -103,7 +103,7 @@
       "auc": 0.72,
       "value": 1.353137956983197,
       "score": 27.45,
-      "contribution": 1.31,
+      "contribution": 2.11,
       "as_of": "2026-04-01",
       "error": null
     },
@@ -114,11 +114,11 @@
       "cluster": "activity",
       "weight": 0.0381,
       "auc": 0.7,
-      "value": 41.6,
-      "score": 0.0,
+      "value": null,
+      "score": null,
       "contribution": 0.0,
-      "as_of": "2026-04-01",
-      "error": null
+      "as_of": null,
+      "error": "FredFetchError: Failed to fetch AWHMAN: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30.0)"
     },
     {
       "key": "umich_sentiment",
@@ -129,7 +129,7 @@
       "auc": 0.66,
       "value": 49.8,
       "score": 100.0,
-      "contribution": 3.8,
+      "contribution": 6.13,
       "as_of": "2026-04-01",
       "error": null
     },
@@ -142,7 +142,7 @@
       "auc": 0.68,
       "value": 1.0542101853741714,
       "score": 38.92,
-      "contribution": 1.66,
+      "contribution": 2.69,
       "as_of": "2026-04-01",
       "error": null
     },
@@ -168,7 +168,7 @@
       "auc": 0.58,
       "value": 1.1287996371884823,
       "score": 55.3,
-      "contribution": 1.95,
+      "contribution": 3.15,
       "as_of": "2026-04-01",
       "error": null
     },
@@ -205,11 +205,11 @@
       "cluster": "sentiment",
       "weight": 0.0042,
       "auc": 0.52,
-      "value": 28.0,
-      "score": 0.0,
+      "value": null,
+      "score": null,
       "contribution": 0.0,
-      "as_of": "2026-06-02",
-      "error": null
+      "as_of": null,
+      "error": "RwordFetchError: Failed GDELT fetch: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=recession%20sourcecountry:US%20sourcelang:english&mode=timelinevolraw&format=json&timespan=24m"
     },
     {
       "key": "lipstick_proxy",
