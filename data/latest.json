@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-03T11:02:53.428956+00:00",
-  "composite": 25.76,
-  "tier": "Moderate",
+  "timestamp": "2026-06-05T09:54:39.552288+00:00",
+  "composite": 24.08,
+  "tier": "Low",
   "indicators": [
     {
       "key": "yield_curve_10y3m",
@@ -38,7 +38,7 @@
       "auc": 0.99,
       "value": 0.13,
       "score": 26.0,
-      "contribution": 6.74,
+      "contribution": 6.3,
       "as_of": "2026-04-01",
       "error": null
     },
@@ -62,10 +62,10 @@
       "cluster": "credit",
       "weight": 0.1357,
       "auc": 0.85,
-      "value": 2.72,
+      "value": 2.75,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-06-01",
+      "as_of": "2026-06-03",
       "error": null
     },
     {
@@ -90,7 +90,7 @@
       "auc": 0.76,
       "value": -1.52249134948097,
       "score": 21.74,
-      "contribution": 4.94,
+      "contribution": 4.62,
       "as_of": "2026-04-01",
       "error": null
     },
@@ -103,7 +103,7 @@
       "auc": 0.72,
       "value": 1.353137956983197,
       "score": 27.45,
-      "contribution": 2.11,
+      "contribution": 1.97,
       "as_of": "2026-04-01",
       "error": null
     },
@@ -114,11 +114,11 @@
       "cluster": "activity",
       "weight": 0.0381,
       "auc": 0.7,
-      "value": null,
-      "score": null,
+      "value": 41.6,
+      "score": 0.0,
       "contribution": 0.0,
-      "as_of": null,
-      "error": "FredFetchError: Failed to fetch AWHMAN: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30.0)"
+      "as_of": "2026-04-01",
+      "error": null
     },
     {
       "key": "umich_sentiment",
@@ -129,7 +129,7 @@
       "auc": 0.66,
       "value": 49.8,
       "score": 100.0,
-      "contribution": 6.13,
+      "contribution": 5.73,
       "as_of": "2026-04-01",
       "error": null
     },
@@ -142,7 +142,7 @@
       "auc": 0.68,
       "value": 1.0542101853741714,
       "score": 38.92,
-      "contribution": 2.69,
+      "contribution": 2.51,
       "as_of": "2026-04-01",
       "error": null
     },
@@ -168,7 +168,7 @@
       "auc": 0.58,
       "value": 1.1287996371884823,
       "score": 55.3,
-      "contribution": 3.15,
+      "contribution": 2.94,
       "as_of": "2026-04-01",
       "error": null
     },
@@ -183,7 +183,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Stooq returned no data for hg.f"
+      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"5cmdowis_l1imcjxxgaf5w\">']"
     },
     {
       "key": "google_trends_recession",
@@ -222,7 +222,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Failed to fetch el.us: Error tokenizing data. C error: Expected 1 fields in line 6, saw 2\n"
+      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"oho99xx3j81yasl0ho6bka\">']"
     }
   ]
 }
