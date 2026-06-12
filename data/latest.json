@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-06-11T10:39:37.172782+00:00",
-  "composite": 22.62,
+  "timestamp": "2026-06-12T10:16:23.900300+00:00",
+  "composite": 22.46,
   "tier": "Low",
   "indicators": [
     {
@@ -38,7 +38,7 @@
       "auc": 0.99,
       "value": 0.1,
       "score": 20.0,
-      "contribution": 4.85,
+      "contribution": 4.81,
       "as_of": "2026-05-01",
       "error": null
     },
@@ -62,10 +62,10 @@
       "cluster": "credit",
       "weight": 0.1357,
       "auc": 0.85,
-      "value": 2.78,
+      "value": 2.8,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-06-09",
+      "as_of": "2026-06-10",
       "error": null
     },
     {
@@ -90,7 +90,7 @@
       "auc": 0.76,
       "value": -1.52249134948097,
       "score": 21.74,
-      "contribution": 4.62,
+      "contribution": 4.59,
       "as_of": "2026-04-01",
       "error": null
     },
@@ -103,7 +103,7 @@
       "auc": 0.72,
       "value": 1.353137956983197,
       "score": 27.45,
-      "contribution": 1.97,
+      "contribution": 1.96,
       "as_of": "2026-04-01",
       "error": null
     },
@@ -129,7 +129,7 @@
       "auc": 0.66,
       "value": 49.8,
       "score": 100.0,
-      "contribution": 5.73,
+      "contribution": 5.69,
       "as_of": "2026-04-01",
       "error": null
     },
@@ -142,7 +142,7 @@
       "auc": 0.68,
       "value": 1.0542101853741714,
       "score": 38.92,
-      "contribution": 2.51,
+      "contribution": 2.49,
       "as_of": "2026-04-01",
       "error": null
     },
@@ -157,7 +157,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Failed to fetch ^spx: 404 Client Error: Not Found for url: https://stooq.com/q/d/l/?s=%5Espx&i=d"
+      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"cjgrms5udt5qnjshyuburq\">']"
     },
     {
       "key": "real_m2_yoy",
@@ -168,7 +168,7 @@
       "auc": 0.58,
       "value": 1.1287996371884823,
       "score": 55.3,
-      "contribution": 2.94,
+      "contribution": 2.92,
       "as_of": "2026-04-01",
       "error": null
     },
@@ -183,7 +183,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Failed to fetch hg.f: 404 Client Error: Not Found for url: https://stooq.com/q/d/l/?s=hg.f&i=d"
+      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"omsyvaoowzocsk0wh6pjcw\">']"
     },
     {
       "key": "google_trends_recession",
@@ -205,11 +205,11 @@
       "cluster": "sentiment",
       "weight": 0.0042,
       "auc": 0.52,
-      "value": null,
-      "score": null,
+      "value": 20.0,
+      "score": 0.0,
       "contribution": 0.0,
-      "as_of": null,
-      "error": "RwordFetchError: Failed GDELT fetch: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=recession%20sourcecountry:US%20sourcelang:english&mode=timelinevolraw&format=json&timespan=24m"
+      "as_of": "2026-06-12",
+      "error": null
     },
     {
       "key": "lipstick_proxy",
@@ -222,7 +222,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Failed to fetch el.us: 404 Client Error: Not Found for url: https://stooq.com/q/d/l/?s=el.us&i=d"
+      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"qhljiwkqie4rsslkseulla\">']"
     }
   ]
 }
