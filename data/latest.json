@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-23T09:42:15.334910+00:00",
-  "composite": 25.27,
-  "tier": "Moderate",
+  "timestamp": "2026-06-24T09:33:32.594557+00:00",
+  "composite": 24.62,
+  "tier": "Low",
   "indicators": [
     {
       "key": "yield_curve_10y3m",
@@ -10,10 +10,10 @@
       "cluster": "yield-curve",
       "weight": 0.1037,
       "auc": 0.92,
-      "value": 0.66,
-      "score": 42.0,
-      "contribution": 4.98,
-      "as_of": "2026-06-22",
+      "value": 0.65,
+      "score": 42.5,
+      "contribution": 5.01,
+      "as_of": "2026-06-23",
       "error": null
     },
     {
@@ -23,10 +23,10 @@
       "cluster": "yield-curve",
       "weight": 0.0963,
       "auc": 0.89,
-      "value": 0.27,
-      "score": 61.5,
-      "contribution": 6.77,
-      "as_of": "2026-06-22",
+      "value": 0.34,
+      "score": 58.0,
+      "contribution": 6.35,
+      "as_of": "2026-06-23",
       "error": null
     },
     {
@@ -38,7 +38,7 @@
       "auc": 0.99,
       "value": 0.1,
       "score": 20.0,
-      "contribution": 3.23,
+      "contribution": 3.21,
       "as_of": "2026-05-01",
       "error": null
     },
@@ -62,10 +62,10 @@
       "cluster": "credit",
       "weight": 0.1357,
       "auc": 0.85,
-      "value": 2.66,
+      "value": 2.65,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-06-19",
+      "as_of": "2026-06-22",
       "error": null
     },
     {
@@ -90,7 +90,7 @@
       "auc": 0.76,
       "value": -0.21186440677966045,
       "score": 17.37,
-      "contribution": 2.46,
+      "contribution": 2.45,
       "as_of": "2026-05-01",
       "error": null
     },
@@ -129,7 +129,7 @@
       "auc": 0.66,
       "value": 49.8,
       "score": 100.0,
-      "contribution": 3.82,
+      "contribution": 3.8,
       "as_of": "2026-04-01",
       "error": null
     },
@@ -157,7 +157,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"bbi0eaeptbsoqzpwzc9olq\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"lothb9pwrjgezmdbnxpiea\">']"
     },
     {
       "key": "real_m2_yoy",
@@ -166,10 +166,10 @@
       "cluster": "credit",
       "weight": 0.031,
       "auc": 0.58,
-      "value": 1.1287996371884823,
-      "score": 55.3,
-      "contribution": 1.96,
-      "as_of": "2026-04-01",
+      "value": 1.5267850800338545,
+      "score": 49.62,
+      "contribution": 1.75,
+      "as_of": "2026-05-01",
       "error": null
     },
     {
@@ -183,7 +183,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"kanok18wgfjbe8o1nx3fpa\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"hmvsspbndjy707cjeokh5w\">']"
     },
     {
       "key": "google_trends_recession",
@@ -205,11 +205,11 @@
       "cluster": "sentiment",
       "weight": 0.0042,
       "auc": 0.52,
-      "value": null,
-      "score": null,
+      "value": 12.0,
+      "score": 0.0,
       "contribution": 0.0,
-      "as_of": null,
-      "error": "RwordFetchError: Failed GDELT fetch: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=recession%20sourcecountry:US%20sourcelang:english&mode=timelinevolraw&format=json&timespan=24m"
+      "as_of": "2026-06-24",
+      "error": null
     },
     {
       "key": "lipstick_proxy",
@@ -222,7 +222,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"2_bczxb3qgvftr3j1sactw\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"ot8d1rjhz8mf00gxexekxa\">']"
     }
   ]
 }
