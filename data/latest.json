@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-07-01T09:50:45.469967+00:00",
-  "composite": 25.66,
+  "timestamp": "2026-07-02T09:15:28.840970+00:00",
+  "composite": 25.25,
   "tier": "Moderate",
   "indicators": [
     {
@@ -10,10 +10,10 @@
       "cluster": "yield-curve",
       "weight": 0.1037,
       "auc": 0.92,
-      "value": 0.57,
-      "score": 46.5,
-      "contribution": 5.51,
-      "as_of": "2026-06-30",
+      "value": 0.63,
+      "score": 43.5,
+      "contribution": 5.16,
+      "as_of": "2026-07-01",
       "error": null
     },
     {
@@ -23,10 +23,10 @@
       "cluster": "yield-curve",
       "weight": 0.0963,
       "auc": 0.89,
-      "value": 0.3,
-      "score": 60.0,
-      "contribution": 6.6,
-      "as_of": "2026-06-30",
+      "value": 0.31,
+      "score": 59.5,
+      "contribution": 6.55,
+      "as_of": "2026-07-01",
       "error": null
     },
     {
@@ -62,10 +62,10 @@
       "cluster": "credit",
       "weight": 0.1357,
       "auc": 0.85,
-      "value": 2.8,
+      "value": 2.75,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-06-29",
+      "as_of": "2026-06-30",
       "error": null
     },
     {
@@ -157,7 +157,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"1jwc3jmzm8-ss6i2lecijq\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"m5q-kbwxla18hv5pwue26w\">']"
     },
     {
       "key": "real_m2_yoy",
@@ -183,7 +183,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"out1l7g9fc0ucl157ashww\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"gaoonjpvkbrlwjtafmudsg\">']"
     },
     {
       "key": "google_trends_recession",
@@ -209,7 +209,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "RwordFetchError: Failed GDELT fetch: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=recession%20sourcecountry:US%20sourcelang:english&mode=timelinevolraw&format=json&timespan=24m"
+      "error": "RwordFetchError: Failed GDELT fetch: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=30.0)"
     },
     {
       "key": "lipstick_proxy",
@@ -222,7 +222,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"r9xhzos4jqdqvort-0kkga\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"upaxzbhl57qdanb4ojerkw\">']"
     }
   ]
 }
