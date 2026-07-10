@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-07-08T08:31:01.596786+00:00",
-  "composite": 23.74,
+  "timestamp": "2026-07-10T09:38:02.592235+00:00",
+  "composite": 23.64,
   "tier": "Low",
   "indicators": [
     {
@@ -10,10 +10,10 @@
       "cluster": "yield-curve",
       "weight": 0.1037,
       "auc": 0.92,
-      "value": 0.69,
-      "score": 40.5,
-      "contribution": 4.8,
-      "as_of": "2026-07-07",
+      "value": 0.71,
+      "score": 39.5,
+      "contribution": 4.68,
+      "as_of": "2026-07-09",
       "error": null
     },
     {
@@ -23,10 +23,10 @@
       "cluster": "yield-curve",
       "weight": 0.0963,
       "auc": 0.89,
-      "value": 0.36,
-      "score": 57.0,
-      "contribution": 6.27,
-      "as_of": "2026-07-07",
+      "value": 0.38,
+      "score": 56.0,
+      "contribution": 6.16,
+      "as_of": "2026-07-09",
       "error": null
     },
     {
@@ -49,10 +49,10 @@
       "cluster": "labor",
       "weight": 0.0922,
       "auc": 0.82,
-      "value": -7.1129707112970735,
-      "score": 8.25,
-      "contribution": 0.87,
-      "as_of": "2026-06-28",
+      "value": -6.716417910447758,
+      "score": 9.38,
+      "contribution": 0.99,
+      "as_of": "2026-07-05",
       "error": null
     },
     {
@@ -62,10 +62,10 @@
       "cluster": "credit",
       "weight": 0.1357,
       "auc": 0.85,
-      "value": 2.72,
+      "value": 2.7,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-07-06",
+      "as_of": "2026-07-08",
       "error": null
     },
     {
@@ -157,7 +157,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"fvc2wrg5x_h9bjyanls5wg\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"1okgitmevj_wnhjfo0fnsa\">']"
     },
     {
       "key": "real_m2_yoy",
@@ -183,7 +183,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"dcogbkjhukt4gejkkgnnxw\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"m3g3pyai5w-wqucenalkma\">']"
     },
     {
       "key": "google_trends_recession",
@@ -222,7 +222,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"7nt6uuhivmsqz5lqcqhuvg\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"gy4t_swwjbm0vgqb5jqyrg\">']"
     }
   ]
 }
