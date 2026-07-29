@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-07-28T08:35:56.054413+00:00",
-  "composite": 25.42,
-  "tier": "Moderate",
+  "timestamp": "2026-07-29T08:42:28.855463+00:00",
+  "composite": 23.9,
+  "tier": "Low",
   "indicators": [
     {
       "key": "yield_curve_10y3m",
@@ -10,10 +10,10 @@
       "cluster": "yield-curve",
       "weight": 0.1037,
       "auc": 0.92,
-      "value": 0.69,
-      "score": 40.5,
-      "contribution": 4.99,
-      "as_of": "2026-07-27",
+      "value": 0.71,
+      "score": 39.5,
+      "contribution": 4.68,
+      "as_of": "2026-07-28",
       "error": null
     },
     {
@@ -23,10 +23,10 @@
       "cluster": "yield-curve",
       "weight": 0.0963,
       "auc": 0.89,
-      "value": 0.34,
-      "score": 58.0,
-      "contribution": 6.64,
-      "as_of": "2026-07-27",
+      "value": 0.35,
+      "score": 57.5,
+      "contribution": 6.33,
+      "as_of": "2026-07-28",
       "error": null
     },
     {
@@ -38,7 +38,7 @@
       "auc": 0.99,
       "value": 0.07,
       "score": 14.0,
-      "contribution": 2.35,
+      "contribution": 2.26,
       "as_of": "2026-06-01",
       "error": null
     },
@@ -51,7 +51,7 @@
       "auc": 0.82,
       "value": -7.572383073496658,
       "score": 6.94,
-      "contribution": 0.76,
+      "contribution": 0.73,
       "as_of": "2026-07-19",
       "error": null
     },
@@ -62,10 +62,10 @@
       "cluster": "credit",
       "weight": 0.1357,
       "auc": 0.85,
-      "value": 2.79,
+      "value": 2.81,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-07-24",
+      "as_of": "2026-07-27",
       "error": null
     },
     {
@@ -90,7 +90,7 @@
       "auc": 0.76,
       "value": -1.7869907076483171,
       "score": 22.62,
-      "contribution": 3.33,
+      "contribution": 3.2,
       "as_of": "2026-06-01",
       "error": null
     },
@@ -103,7 +103,7 @@
       "auc": 0.72,
       "value": 1.1440847075981697,
       "score": 30.93,
-      "contribution": 1.54,
+      "contribution": 1.48,
       "as_of": "2026-06-01",
       "error": null
     },
@@ -114,11 +114,11 @@
       "cluster": "activity",
       "weight": 0.0381,
       "auc": 0.7,
-      "value": null,
-      "score": null,
+      "value": 41.6,
+      "score": 0.0,
       "contribution": 0.0,
-      "as_of": null,
-      "error": "FredFetchError: Failed to fetch AWHMAN: 404 Client Error: Not Found for url: https://fred.stlouisfed.org/graph/fredgraph.csv?id=AWHMAN"
+      "as_of": "2026-06-01",
+      "error": null
     },
     {
       "key": "umich_sentiment",
@@ -129,7 +129,7 @@
       "auc": 0.66,
       "value": 44.8,
       "score": 100.0,
-      "contribution": 3.97,
+      "contribution": 3.82,
       "as_of": "2026-05-01",
       "error": null
     },
@@ -157,7 +157,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"hofvbigsf7voudac_ra6hw\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"lmfhz8e8lgtyb6vtftrz3q\">']"
     },
     {
       "key": "real_m2_yoy",
@@ -166,10 +166,10 @@
       "cluster": "credit",
       "weight": 0.031,
       "auc": 0.58,
-      "value": 1.5267850800338545,
-      "score": 49.62,
-      "contribution": 1.83,
-      "as_of": "2026-05-01",
+      "value": 2.2307681888215747,
+      "score": 39.56,
+      "contribution": 1.4,
+      "as_of": "2026-06-01",
       "error": null
     },
     {
@@ -183,7 +183,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"bccdy8nrn1ftyxuwlwhmmw\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"bjs0gyqdkegdrrybbsm6mq\">']"
     },
     {
       "key": "google_trends_recession",
@@ -205,11 +205,11 @@
       "cluster": "sentiment",
       "weight": 0.0042,
       "auc": 0.52,
-      "value": 22.0,
-      "score": 0.0,
+      "value": null,
+      "score": null,
       "contribution": 0.0,
-      "as_of": "2026-07-28",
-      "error": null
+      "as_of": null,
+      "error": "RwordFetchError: Failed GDELT fetch: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=recession%20sourcecountry:US%20sourcelang:english&mode=timelinevolraw&format=json&timespan=24m"
     },
     {
       "key": "lipstick_proxy",
@@ -222,7 +222,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"7ezerggrvw0jmma-ywiclg\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"jnppgx4d2ldj5ipxufxxpq\">']"
     }
   ]
 }
