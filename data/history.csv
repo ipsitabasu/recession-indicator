@@ -1616,8 +1616,8 @@ timestamp,indicator,value,score,weight,as_of,error
 2026-07-30T08:28:40.446765+00:00,initial_claims_yoy,-7.572383073496658,6.93604836143812,0.0922,2026-07-19,
 2026-07-30T08:28:40.446765+00:00,hy_credit_spread,2.84,0.0,0.1357,2026-07-28,
 2026-07-30T08:28:40.446765+00:00,ism_pmi,,,0.0533,,PmiFetchError: Failed to fetch ISM PMI: PMI mirror returned no data
-2026-07-30T08:28:40.446765+00:00,building_permits_yoy,-1.7869907076483171,22.623302358827726,0.1238,2026-06-01,
-2026-07-30T08:28:40.446765+00:00,industrial_production_yoy,1.1440847075981697,30.931921540030505,0.0419,2026-06-01,
+2026-07-30T08:28:40.446765+00:00,building_permits_yoy,-1.7869907076483171,22.62330235882773,0.1238,2026-06-01,
+2026-07-30T08:28:40.446765+00:00,industrial_production_yoy,1.1440847075981695,30.931921540030505,0.0419,2026-06-01,
 2026-07-30T08:28:40.446765+00:00,weekly_hours_mfg,41.6,0.0,0.0381,2026-06-01,
 2026-07-30T08:28:40.446765+00:00,umich_sentiment,44.8,100.0,0.0334,2026-05-01,
 2026-07-30T08:28:40.446765+00:00,real_retail_sales_yoy,3.146214856704166,0.0,0.0376,2026-06-01,
@@ -1628,3 +1628,21 @@ timestamp,indicator,value,score,weight,as_of,error
 2026-07-30T08:28:40.446765+00:00,rword_index,12.0,0.0,0.0042,2026-07-30,
 2026-07-30T08:28:40.446765+00:00,lipstick_proxy,,,0.0,,"StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=""utf-8""><meta name=""robots"" content=""noindex', 'nofollow""></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=""oetod2r4ad9nts4ukp_mwa"">']"
 2026-07-30T08:28:40.446765+00:00,_composite,22.474508123401584,22.474508123401584,1.0,2026-07-30,
+2026-07-31T08:51:05.449456+00:00,yield_curve_10y3m,0.86,32.0,0.1037,2026-07-30,
+2026-07-31T08:51:05.449456+00:00,yield_curve_10y2y,0.45,52.5,0.0963,2026-07-30,
+2026-07-31T08:51:05.449456+00:00,sahm_rule,0.07,14.000000000000002,0.1412,2026-06-01,
+2026-07-31T08:51:05.449456+00:00,initial_claims_yoy,-8.465011286681712,4.385682038052252,0.0922,2026-07-26,
+2026-07-31T08:51:05.449456+00:00,hy_credit_spread,2.87,0.0,0.1357,2026-07-29,
+2026-07-31T08:51:05.449456+00:00,ism_pmi,,,0.0533,,PmiFetchError: Failed to fetch ISM PMI: PMI mirror returned no data
+2026-07-31T08:51:05.449456+00:00,building_permits_yoy,-1.7869907076483171,22.623302358827726,0.1238,2026-06-01,
+2026-07-31T08:51:05.449456+00:00,industrial_production_yoy,1.1440847075981697,30.931921540030505,0.0419,2026-06-01,
+2026-07-31T08:51:05.449456+00:00,weekly_hours_mfg,41.6,0.0,0.0381,2026-06-01,
+2026-07-31T08:51:05.449456+00:00,umich_sentiment,44.8,100.0,0.0334,2026-05-01,
+2026-07-31T08:51:05.449456+00:00,real_retail_sales_yoy,3.146214856704166,0.0,0.0376,2026-06-01,
+2026-07-31T08:51:05.449456+00:00,sp500_drawdown,,,0.0403,,"StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=""utf-8""><meta name=""robots"" content=""noindex', 'nofollow""></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=""hyxqsoztr1stb_uhw_ffla"">']"
+2026-07-31T08:51:05.449456+00:00,real_m2_yoy,2.2307681888215747,39.56045444540608,0.031,2026-06-01,
+2026-07-31T08:51:05.449456+00:00,copper_gold_ratio_yoy,,,0.0168,,"StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=""utf-8""><meta name=""robots"" content=""noindex', 'nofollow""></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=""ljyinfw8avtspwvtz2p3za"">']"
+2026-07-31T08:51:05.449456+00:00,google_trends_recession,,,0.0105,,TrendsFetchError: Failed Google Trends fetch: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+2026-07-31T08:51:05.449456+00:00,rword_index,8.0,0.0,0.0042,2026-07-31,
+2026-07-31T08:51:05.449456+00:00,lipstick_proxy,,,0.0,,"StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=""utf-8""><meta name=""robots"" content=""noindex', 'nofollow""></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=""pdotzmjnf0pjg5yne733ea"">']"
+2026-07-31T08:51:05.449456+00:00,_composite,22.08906417502691,22.08906417502691,1.0,2026-07-31,

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-07-30T08:28:40.446765+00:00",
-  "composite": 22.47,
+  "timestamp": "2026-07-31T08:51:05.449456+00:00",
+  "composite": 22.09,
   "tier": "Low",
   "indicators": [
     {
@@ -10,10 +10,10 @@
       "cluster": "yield-curve",
       "weight": 0.1037,
       "auc": 0.92,
-      "value": 0.84,
-      "score": 33.0,
-      "contribution": 3.89,
-      "as_of": "2026-07-29",
+      "value": 0.86,
+      "score": 32.0,
+      "contribution": 3.77,
+      "as_of": "2026-07-30",
       "error": null
     },
     {
@@ -26,7 +26,7 @@
       "value": 0.45,
       "score": 52.5,
       "contribution": 5.75,
-      "as_of": "2026-07-29",
+      "as_of": "2026-07-30",
       "error": null
     },
     {
@@ -49,10 +49,10 @@
       "cluster": "labor",
       "weight": 0.0922,
       "auc": 0.82,
-      "value": -7.572383073496658,
-      "score": 6.94,
-      "contribution": 0.73,
-      "as_of": "2026-07-19",
+      "value": -8.465011286681712,
+      "score": 4.39,
+      "contribution": 0.46,
+      "as_of": "2026-07-26",
       "error": null
     },
     {
@@ -62,10 +62,10 @@
       "cluster": "credit",
       "weight": 0.1357,
       "auc": 0.85,
-      "value": 2.84,
+      "value": 2.87,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-07-28",
+      "as_of": "2026-07-29",
       "error": null
     },
     {
@@ -157,7 +157,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"cwwwzemdt6zghxcr_k2zxg\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"hyxqsoztr1stb_uhw_ffla\">']"
     },
     {
       "key": "real_m2_yoy",
@@ -183,7 +183,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"tgqreus197gvsm4ce--wiw\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"ljyinfw8avtspwvtz2p3za\">']"
     },
     {
       "key": "google_trends_recession",
@@ -205,10 +205,10 @@
       "cluster": "sentiment",
       "weight": 0.0042,
       "auc": 0.52,
-      "value": 12.0,
+      "value": 8.0,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-07-30",
+      "as_of": "2026-07-31",
       "error": null
     },
     {
@@ -222,7 +222,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"oetod2r4ad9nts4ukp_mwa\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"pdotzmjnf0pjg5yne733ea\">']"
     }
   ]
 }
