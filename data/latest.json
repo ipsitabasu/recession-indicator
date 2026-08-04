@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-03T09:47:56.389750+00:00",
-  "composite": 21.73,
+  "timestamp": "2026-08-04T08:38:51.387762+00:00",
+  "composite": 22.61,
   "tier": "Low",
   "indicators": [
     {
@@ -10,10 +10,10 @@
       "cluster": "yield-curve",
       "weight": 0.1037,
       "auc": 0.92,
-      "value": 0.92,
-      "score": 29.0,
-      "contribution": 3.44,
-      "as_of": "2026-07-31",
+      "value": 0.79,
+      "score": 35.5,
+      "contribution": 4.21,
+      "as_of": "2026-08-03",
       "error": null
     },
     {
@@ -23,10 +23,10 @@
       "cluster": "yield-curve",
       "weight": 0.0963,
       "auc": 0.89,
-      "value": 0.47,
-      "score": 51.5,
-      "contribution": 5.67,
-      "as_of": "2026-07-31",
+      "value": 0.45,
+      "score": 52.5,
+      "contribution": 5.78,
+      "as_of": "2026-08-03",
       "error": null
     },
     {
@@ -157,7 +157,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"fjwj7i0csxrhefojrub6yg\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"h8rrgnvptko-gclnu7mv5g\">']"
     },
     {
       "key": "real_m2_yoy",
@@ -183,7 +183,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"vimtvjyj7cvjljcwrro52g\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"ygddwkicl85vorcu6uumla\">']"
     },
     {
       "key": "google_trends_recession",
@@ -222,7 +222,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"cj4pijhbqzurkxoo1xjacg\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"91yidol0odxpblx7md_5aq\">']"
     }
   ]
 }
