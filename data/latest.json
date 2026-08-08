@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-07T07:17:40.835688+00:00",
-  "composite": 22.2,
+  "timestamp": "2026-08-08T06:55:31.503871+00:00",
+  "composite": 19.89,
   "tier": "Low",
   "indicators": [
     {
@@ -10,10 +10,10 @@
       "cluster": "yield-curve",
       "weight": 0.1037,
       "auc": 0.92,
-      "value": 0.79,
-      "score": 35.5,
-      "contribution": 4.21,
-      "as_of": "2026-08-06",
+      "value": 0.78,
+      "score": 36.0,
+      "contribution": 4.27,
+      "as_of": "2026-08-07",
       "error": null
     },
     {
@@ -23,10 +23,10 @@
       "cluster": "yield-curve",
       "weight": 0.0963,
       "auc": 0.89,
-      "value": 0.44,
-      "score": 53.0,
-      "contribution": 5.83,
-      "as_of": "2026-08-06",
+      "value": 0.46,
+      "score": 52.0,
+      "contribution": 5.72,
+      "as_of": "2026-08-07",
       "error": null
     },
     {
@@ -36,10 +36,10 @@
       "cluster": "labor",
       "weight": 0.1412,
       "auc": 0.99,
-      "value": 0.07,
-      "score": 14.0,
-      "contribution": 2.26,
-      "as_of": "2026-06-01",
+      "value": -0.03,
+      "score": 0.0,
+      "contribution": 0.0,
+      "as_of": "2026-07-01",
       "error": null
     },
     {
@@ -62,10 +62,10 @@
       "cluster": "credit",
       "weight": 0.1357,
       "auc": 0.85,
-      "value": 2.75,
+      "value": 2.71,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-08-05",
+      "as_of": "2026-08-06",
       "error": null
     },
     {
@@ -114,10 +114,10 @@
       "cluster": "activity",
       "weight": 0.0381,
       "auc": 0.7,
-      "value": 41.6,
+      "value": 41.7,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-06-01",
+      "as_of": "2026-07-01",
       "error": null
     },
     {
@@ -157,7 +157,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"qqmbmsevw7r7apqnrvpg-a\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"siuyocjjondmqmj3lhetkq\">']"
     },
     {
       "key": "real_m2_yoy",
@@ -183,7 +183,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"4dhanjyfsx_yxznqnsxtjq\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"xblmbcreipek1xj2mabupq\">']"
     },
     {
       "key": "google_trends_recession",
@@ -222,7 +222,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"-pgjnkozbskkajveup3kaa\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"ebb1na3zpxi-uuc_dbrxig\">']"
     }
   ]
 }
