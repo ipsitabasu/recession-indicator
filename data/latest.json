@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-08T06:55:31.503871+00:00",
+  "timestamp": "2026-08-09T06:58:11.287336+00:00",
   "composite": 19.89,
   "tier": "Low",
   "indicators": [
@@ -157,7 +157,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"siuyocjjondmqmj3lhetkq\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"hqtz8lw-4hiwo-xnvsxhtq\">']"
     },
     {
       "key": "real_m2_yoy",
@@ -183,7 +183,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"xblmbcreipek1xj2mabupq\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"zs2vojx2ginhe2gswzzfxg\">']"
     },
     {
       "key": "google_trends_recession",
@@ -222,7 +222,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"ebb1na3zpxi-uuc_dbrxig\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"jbrdlvsanyare4cpo6jijg\">']"
     }
   ]
 }
