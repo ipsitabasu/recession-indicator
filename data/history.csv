@@ -1886,8 +1886,8 @@ timestamp,indicator,value,score,weight,as_of,error
 2026-08-14T07:25:53.882752+00:00,initial_claims_yoy,-10.259301014656142,0.0,0.0922,2026-08-09,
 2026-08-14T07:25:53.882752+00:00,hy_credit_spread,2.71,0.0,0.1357,2026-08-12,
 2026-08-14T07:25:53.882752+00:00,ism_pmi,,,0.0533,,PmiFetchError: Failed to fetch ISM PMI: PMI mirror returned no data
-2026-08-14T07:25:53.882752+00:00,building_permits_yoy,-1.7869907076483171,22.623302358827726,0.1238,2026-06-01,
-2026-08-14T07:25:53.882752+00:00,industrial_production_yoy,1.1440847075981697,30.931921540030505,0.0419,2026-06-01,
+2026-08-14T07:25:53.882752+00:00,building_permits_yoy,-1.7869907076483171,22.62330235882773,0.1238,2026-06-01,
+2026-08-14T07:25:53.882752+00:00,industrial_production_yoy,1.1440847075981695,30.931921540030505,0.0419,2026-06-01,
 2026-08-14T07:25:53.882752+00:00,weekly_hours_mfg,41.7,0.0,0.0381,2026-07-01,
 2026-08-14T07:25:53.882752+00:00,umich_sentiment,49.5,100.0,0.0334,2026-06-01,
 2026-08-14T07:25:53.882752+00:00,real_retail_sales_yoy,3.146214856704166,0.0,0.0376,2026-06-01,
@@ -1897,4 +1897,22 @@ timestamp,indicator,value,score,weight,as_of,error
 2026-08-14T07:25:53.882752+00:00,google_trends_recession,,,0.0105,,TrendsFetchError: Failed Google Trends fetch: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
 2026-08-14T07:25:53.882752+00:00,rword_index,,,0.0042,,RwordFetchError: Failed GDELT fetch: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=recession%20sourcecountry:US%20sourcelang:english&mode=timelinevolraw&format=json&timespan=24m
 2026-08-14T07:25:53.882752+00:00,lipstick_proxy,,,0.0,,"StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=""utf-8""><meta name=""robots"" content=""noindex', 'nofollow""></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=""0iksyucv7_c3r8w6tmpgba"">']"
-2026-08-14T07:25:53.882752+00:00,_composite,19.901001751466158,19.901001751466158,1.0,2026-08-14,
+2026-08-14T07:25:53.882752+00:00,_composite,19.90100175146616,19.90100175146616,1.0,2026-08-14,
+2026-08-15T06:39:18.350485+00:00,yield_curve_10y3m,0.82,34.0,0.1037,2026-08-14,
+2026-08-15T06:39:18.350485+00:00,yield_curve_10y2y,0.51,49.5,0.0963,2026-08-14,
+2026-08-15T06:39:18.350485+00:00,sahm_rule,-0.03,0.0,0.1412,2026-07-01,
+2026-08-15T06:39:18.350485+00:00,initial_claims_yoy,-10.259301014656142,0.0,0.0922,2026-08-09,
+2026-08-15T06:39:18.350485+00:00,hy_credit_spread,2.71,0.0,0.1357,2026-08-13,
+2026-08-15T06:39:18.350485+00:00,ism_pmi,,,0.0533,,PmiFetchError: Failed to fetch ISM PMI: PMI mirror returned no data
+2026-08-15T06:39:18.350485+00:00,building_permits_yoy,-1.7869907076483171,22.623302358827726,0.1238,2026-06-01,
+2026-08-15T06:39:18.350485+00:00,industrial_production_yoy,1.1440847075981697,30.931921540030505,0.0419,2026-06-01,
+2026-08-15T06:39:18.350485+00:00,weekly_hours_mfg,41.7,0.0,0.0381,2026-07-01,
+2026-08-15T06:39:18.350485+00:00,umich_sentiment,49.5,100.0,0.0334,2026-06-01,
+2026-08-15T06:39:18.350485+00:00,real_retail_sales_yoy,1.65076889678486,26.9846220643028,0.0376,2026-07-01,
+2026-08-15T06:39:18.350485+00:00,sp500_drawdown,,,0.0403,,"StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=""utf-8""><meta name=""robots"" content=""noindex', 'nofollow""></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=""h4kzk2l5jwlfy9lteu0_qq"">']"
+2026-08-15T06:39:18.350485+00:00,real_m2_yoy,2.2307681888215747,39.56045444540608,0.031,2026-06-01,
+2026-08-15T06:39:18.350485+00:00,copper_gold_ratio_yoy,,,0.0168,,"StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=""utf-8""><meta name=""robots"" content=""noindex', 'nofollow""></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=""l2gcuz6yipu0s0h2li1noa"">']"
+2026-08-15T06:39:18.350485+00:00,google_trends_recession,,,0.0105,,TrendsFetchError: Failed Google Trends fetch: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+2026-08-15T06:39:18.350485+00:00,rword_index,,,0.0042,,RwordFetchError: Failed GDELT fetch: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=recession%20sourcecountry:US%20sourcelang:english&mode=timelinevolraw&format=json&timespan=24m
+2026-08-15T06:39:18.350485+00:00,lipstick_proxy,,,0.0,,"StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=""utf-8""><meta name=""robots"" content=""noindex', 'nofollow""></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=""ehes_bn_vf3m8paqjlcdvg"">']"
+2026-08-15T06:39:18.350485+00:00,_composite,20.54001396956855,20.54001396956855,1.0,2026-08-15,
