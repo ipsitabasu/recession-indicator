@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-26T06:51:20.992349+00:00",
-  "composite": 19.16,
+  "timestamp": "2026-08-27T17:24:57.675776+00:00",
+  "composite": 18.88,
   "tier": "Low",
   "indicators": [
     {
@@ -10,10 +10,10 @@
       "cluster": "yield-curve",
       "weight": 0.1037,
       "auc": 0.92,
-      "value": 0.78,
-      "score": 36.0,
-      "contribution": 4.25,
-      "as_of": "2026-08-25",
+      "value": 0.81,
+      "score": 34.5,
+      "contribution": 4.07,
+      "as_of": "2026-08-26",
       "error": null
     },
     {
@@ -26,7 +26,7 @@
       "value": 0.47,
       "score": 51.5,
       "contribution": 5.64,
-      "as_of": "2026-08-25",
+      "as_of": "2026-08-26",
       "error": null
     },
     {
@@ -49,10 +49,10 @@
       "cluster": "labor",
       "weight": 0.0922,
       "auc": 0.82,
-      "value": -9.534368070953436,
-      "score": 1.33,
-      "contribution": 0.14,
-      "as_of": "2026-08-16",
+      "value": -9.868421052631582,
+      "score": 0.38,
+      "contribution": 0.04,
+      "as_of": "2026-08-23",
       "error": null
     },
     {
@@ -62,10 +62,10 @@
       "cluster": "credit",
       "weight": 0.1357,
       "auc": 0.85,
-      "value": 2.69,
+      "value": 2.67,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-08-24",
+      "as_of": "2026-08-26",
       "error": null
     },
     {
@@ -157,7 +157,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"xkcskaydn7djkruorlqjgg\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"xmp5ealxrevjywh42ojbpq\">']"
     },
     {
       "key": "real_m2_yoy",
@@ -183,7 +183,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"ugwl1xugwynrh05-8hkp0q\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"cimab3szoolywjabc3z7lg\">']"
     },
     {
       "key": "google_trends_recession",
@@ -205,10 +205,10 @@
       "cluster": "sentiment",
       "weight": 0.0042,
       "auc": 0.52,
-      "value": 9.0,
+      "value": 45.0,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-08-26",
+      "as_of": "2026-08-27",
       "error": null
     },
     {
@@ -222,7 +222,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"d_gwacevata-tirkgt5eqq\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"v8hnftyv9hnjxvzkrppoog\">']"
     }
   ]
 }
