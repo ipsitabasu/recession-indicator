@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-27T17:24:57.675776+00:00",
-  "composite": 18.88,
+  "timestamp": "2026-08-28T18:18:21.835596+00:00",
+  "composite": 18.86,
   "tier": "Low",
   "indicators": [
     {
@@ -10,10 +10,10 @@
       "cluster": "yield-curve",
       "weight": 0.1037,
       "auc": 0.92,
-      "value": 0.81,
-      "score": 34.5,
-      "contribution": 4.07,
-      "as_of": "2026-08-26",
+      "value": 0.83,
+      "score": 33.5,
+      "contribution": 3.97,
+      "as_of": "2026-08-27",
       "error": null
     },
     {
@@ -25,8 +25,8 @@
       "auc": 0.89,
       "value": 0.47,
       "score": 51.5,
-      "contribution": 5.64,
-      "as_of": "2026-08-26",
+      "contribution": 5.67,
+      "as_of": "2026-08-27",
       "error": null
     },
     {
@@ -62,10 +62,10 @@
       "cluster": "credit",
       "weight": 0.1357,
       "auc": 0.85,
-      "value": 2.67,
+      "value": 2.63,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-08-26",
+      "as_of": "2026-08-27",
       "error": null
     },
     {
@@ -90,7 +90,7 @@
       "auc": 0.76,
       "value": 2.3571428571428577,
       "score": 8.81,
-      "contribution": 1.24,
+      "contribution": 1.25,
       "as_of": "2026-07-01",
       "error": null
     },
@@ -127,10 +127,10 @@
       "cluster": "sentiment",
       "weight": 0.0334,
       "auc": 0.66,
-      "value": 49.5,
+      "value": 55.2,
       "score": 100.0,
-      "contribution": 3.8,
-      "as_of": "2026-06-01",
+      "contribution": 3.82,
+      "as_of": "2026-07-01",
       "error": null
     },
     {
@@ -142,7 +142,7 @@
       "auc": 0.68,
       "value": 1.65076889678486,
       "score": 26.98,
-      "contribution": 1.15,
+      "contribution": 1.16,
       "as_of": "2026-07-01",
       "error": null
     },
@@ -157,7 +157,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"xmp5ealxrevjywh42ojbpq\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"tze1omkl-9hwev1ulzx70a\">']"
     },
     {
       "key": "real_m2_yoy",
@@ -168,7 +168,7 @@
       "auc": 0.58,
       "value": 2.194989313430784,
       "score": 40.07,
-      "contribution": 1.41,
+      "contribution": 1.42,
       "as_of": "2026-07-01",
       "error": null
     },
@@ -183,7 +183,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"cimab3szoolywjabc3z7lg\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"5fwnlelrdfdmrwb7e4hosq\">']"
     },
     {
       "key": "google_trends_recession",
@@ -205,11 +205,11 @@
       "cluster": "sentiment",
       "weight": 0.0042,
       "auc": 0.52,
-      "value": 45.0,
-      "score": 0.0,
+      "value": null,
+      "score": null,
       "contribution": 0.0,
-      "as_of": "2026-08-27",
-      "error": null
+      "as_of": null,
+      "error": "RwordFetchError: Failed GDELT fetch: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=recession%20sourcecountry:US%20sourcelang:english&mode=timelinevolraw&format=json&timespan=24m (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.gdeltproject.org', port=443) at 0x7f1a4d28ad50>, 'Connection to api.gdeltproject.org timed out. (connect timeout=30.0)'))"
     },
     {
       "key": "lipstick_proxy",
@@ -222,7 +222,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"v8hnftyv9hnjxvzkrppoog\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"o-mpcyekktngvggywgpugw\">']"
     }
   ]
 }
