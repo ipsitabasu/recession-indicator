@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-09-04T10:48:15.371041+00:00",
-  "composite": 18.74,
+  "timestamp": "2026-09-05T10:06:44.377505+00:00",
+  "composite": 18.91,
   "tier": "Low",
   "indicators": [
     {
@@ -10,10 +10,10 @@
       "cluster": "yield-curve",
       "weight": 0.1037,
       "auc": 0.92,
-      "value": 0.88,
-      "score": 31.0,
-      "contribution": 3.67,
-      "as_of": "2026-09-03",
+      "value": 0.87,
+      "score": 31.5,
+      "contribution": 3.73,
+      "as_of": "2026-09-04",
       "error": null
     },
     {
@@ -23,10 +23,10 @@
       "cluster": "yield-curve",
       "weight": 0.0963,
       "auc": 0.89,
-      "value": 0.43,
-      "score": 53.5,
-      "contribution": 5.89,
-      "as_of": "2026-09-03",
+      "value": 0.41,
+      "score": 54.5,
+      "contribution": 6.0,
+      "as_of": "2026-09-04",
       "error": null
     },
     {
@@ -36,10 +36,10 @@
       "cluster": "labor",
       "weight": 0.1412,
       "auc": 0.99,
-      "value": -0.03,
+      "value": -0.07,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-07-01",
+      "as_of": "2026-08-01",
       "error": null
     },
     {
@@ -62,10 +62,10 @@
       "cluster": "credit",
       "weight": 0.1357,
       "auc": 0.85,
-      "value": 2.66,
+      "value": 2.65,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-09-02",
+      "as_of": "2026-09-03",
       "error": null
     },
     {
@@ -117,7 +117,7 @@
       "value": 41.7,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-07-01",
+      "as_of": "2026-08-01",
       "error": null
     },
     {
@@ -157,7 +157,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"9_ucwqvyvi_4uhaakpdroa\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"oedmxgpkqtlnemxffbfiqa\">']"
     },
     {
       "key": "real_m2_yoy",
@@ -183,7 +183,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"ugngpxglmngdbwexsrlomq\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"llidsblnvn-pzt6xkfga4a\">']"
     },
     {
       "key": "google_trends_recession",
@@ -222,7 +222,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"to1rg2aixdzqxrihtvnzkw\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"dyefif9ndawf7_6rzeriqg\">']"
     }
   ]
 }
