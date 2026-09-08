@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-09-07T11:49:54.578253+00:00",
-  "composite": 18.82,
+  "timestamp": "2026-09-08T10:46:49.814519+00:00",
+  "composite": 18.91,
   "tier": "Low",
   "indicators": [
     {
@@ -12,7 +12,7 @@
       "auc": 0.92,
       "value": 0.87,
       "score": 31.5,
-      "contribution": 3.72,
+      "contribution": 3.73,
       "as_of": "2026-09-04",
       "error": null
     },
@@ -25,7 +25,7 @@
       "auc": 0.89,
       "value": 0.41,
       "score": 54.5,
-      "contribution": 5.97,
+      "contribution": 6.0,
       "as_of": "2026-09-04",
       "error": null
     },
@@ -90,7 +90,7 @@
       "auc": 0.76,
       "value": 2.3571428571428577,
       "score": 8.81,
-      "contribution": 1.24,
+      "contribution": 1.25,
       "as_of": "2026-07-01",
       "error": null
     },
@@ -129,7 +129,7 @@
       "auc": 0.66,
       "value": 55.2,
       "score": 100.0,
-      "contribution": 3.8,
+      "contribution": 3.82,
       "as_of": "2026-07-01",
       "error": null
     },
@@ -142,7 +142,7 @@
       "auc": 0.68,
       "value": 1.65076889678486,
       "score": 26.98,
-      "contribution": 1.15,
+      "contribution": 1.16,
       "as_of": "2026-07-01",
       "error": null
     },
@@ -157,7 +157,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"dzsqz1xpp7msackfmcoc1w\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"obpdf1sgqmyphbbbexndsa\">']"
     },
     {
       "key": "real_m2_yoy",
@@ -168,7 +168,7 @@
       "auc": 0.58,
       "value": 2.194989313430784,
       "score": 40.07,
-      "contribution": 1.41,
+      "contribution": 1.42,
       "as_of": "2026-07-01",
       "error": null
     },
@@ -183,7 +183,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"c6m17izpl1zf6nsqxoijvg\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"csytz64e__5sbevsg6wwpq\">']"
     },
     {
       "key": "google_trends_recession",
@@ -205,11 +205,11 @@
       "cluster": "sentiment",
       "weight": 0.0042,
       "auc": 0.52,
-      "value": 6.0,
-      "score": 0.0,
+      "value": null,
+      "score": null,
       "contribution": 0.0,
-      "as_of": "2026-09-07",
-      "error": null
+      "as_of": null,
+      "error": "RwordFetchError: Failed GDELT fetch: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=recession%20sourcecountry:US%20sourcelang:english&mode=timelinevolraw&format=json&timespan=24m"
     },
     {
       "key": "lipstick_proxy",
@@ -222,7 +222,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"c53ji79nrhjsol3cm813_g\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"q6sqs6doy-agpzaq9igvza\">']"
     }
   ]
 }
