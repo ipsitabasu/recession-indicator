@@ -2744,13 +2744,13 @@ timestamp,indicator,value,score,weight,as_of,error
 2026-09-30T12:04:36.171769+00:00,rword_index,9.0,0.0,0.0042,2026-09-30,
 2026-09-30T12:04:36.171769+00:00,lipstick_proxy,,,0.0,,"StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=""utf-8""><meta name=""robots"" content=""noindex', 'nofollow""></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=""cyk1mzbczh5z0tjtx7uldg"">']"
 2026-09-30T12:04:36.171769+00:00,_composite,16.309497590573233,16.309497590573233,1.0,2026-09-30,
-2026-10-01T12:37:47.366062+00:00,yield_curve_10y3m,1.09,20.499999999999996,0.1037,2026-09-30,
+2026-10-01T12:37:47.366062+00:00,yield_curve_10y3m,1.09,20.5,0.1037,2026-09-30,
 2026-10-01T12:37:47.366062+00:00,yield_curve_10y2y,0.41,54.50000000000001,0.0963,2026-09-30,
 2026-10-01T12:37:47.366062+00:00,sahm_rule,-0.07,0.0,0.1412,2026-08-01,
 2026-10-01T12:37:47.366062+00:00,initial_claims_yoy,-14.57233368532207,0.0,0.0922,2026-09-20,
 2026-10-01T12:37:47.366062+00:00,hy_credit_spread,3.08,0.0,0.1357,2026-09-29,
 2026-10-01T12:37:47.366062+00:00,ism_pmi,,,0.0533,,PmiFetchError: Failed to fetch ISM PMI: PMI mirror returned no data
-2026-10-01T12:37:47.366062+00:00,building_permits_yoy,4.157386785449146,2.8087107151695117,0.1238,2026-08-01,
+2026-10-01T12:37:47.366062+00:00,building_permits_yoy,4.157386785449146,2.808710715169512,0.1238,2026-08-01,
 2026-10-01T12:37:47.366062+00:00,industrial_production_yoy,1.4204223973108832,26.326293378151945,0.0419,2026-08-01,
 2026-10-01T12:37:47.366062+00:00,weekly_hours_mfg,41.7,0.0,0.0381,2026-08-01,
 2026-10-01T12:37:47.366062+00:00,umich_sentiment,51.7,100.0,0.0334,2026-08-01,
@@ -2762,3 +2762,21 @@ timestamp,indicator,value,score,weight,as_of,error
 2026-10-01T12:37:47.366062+00:00,rword_index,,,0.0042,,RwordFetchError: Failed GDELT fetch: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=recession%20sourcecountry:US%20sourcelang:english&mode=timelinevolraw&format=json&timespan=24m
 2026-10-01T12:37:47.366062+00:00,lipstick_proxy,,,0.0,,"StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=""utf-8""><meta name=""robots"" content=""noindex', 'nofollow""></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=""1qjk2epe-hplrck-dy9fwg"">']"
 2026-10-01T12:37:47.366062+00:00,_composite,15.693541355438256,15.693541355438256,1.0,2026-10-01,
+2026-10-02T12:02:23.755512+00:00,yield_curve_10y3m,1.07,21.499999999999996,0.1037,2026-10-01,
+2026-10-02T12:02:23.755512+00:00,yield_curve_10y2y,0.46,52.0,0.0963,2026-10-01,
+2026-10-02T12:02:23.755512+00:00,sahm_rule,-0.07,0.0,0.1412,2026-08-01,
+2026-10-02T12:02:23.755512+00:00,initial_claims_yoy,-14.529914529914533,0.0,0.0922,2026-09-27,
+2026-10-02T12:02:23.755512+00:00,hy_credit_spread,3.12,0.0,0.1357,2026-09-30,
+2026-10-02T12:02:23.755512+00:00,ism_pmi,,,0.0533,,PmiFetchError: Failed to fetch ISM PMI: PMI mirror returned no data
+2026-10-02T12:02:23.755512+00:00,building_permits_yoy,4.157386785449146,2.8087107151695117,0.1238,2026-08-01,
+2026-10-02T12:02:23.755512+00:00,industrial_production_yoy,1.4204223973108832,26.326293378151945,0.0419,2026-08-01,
+2026-10-02T12:02:23.755512+00:00,weekly_hours_mfg,41.7,0.0,0.0381,2026-08-01,
+2026-10-02T12:02:23.755512+00:00,umich_sentiment,51.7,100.0,0.0334,2026-08-01,
+2026-10-02T12:02:23.755512+00:00,real_retail_sales_yoy,2.5755710451964786,8.488579096070428,0.0376,2026-08-01,
+2026-10-02T12:02:23.755512+00:00,sp500_drawdown,,,0.0403,,"StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=""utf-8""><meta name=""robots"" content=""noindex', 'nofollow""></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=""u26dzlcekapkgcwuv7ucxg"">']"
+2026-10-02T12:02:23.755512+00:00,real_m2_yoy,2.186183628565508,40.19737673477846,0.031,2026-08-01,
+2026-10-02T12:02:23.755512+00:00,copper_gold_ratio_yoy,,,0.0168,,"StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=""utf-8""><meta name=""robots"" content=""noindex', 'nofollow""></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=""lfk7ghvkmtr0xlu-n0hawg"">']"
+2026-10-02T12:02:23.755512+00:00,google_trends_recession,,,0.0105,,TrendsFetchError: Failed Google Trends fetch: Retry.__init__() got an unexpected keyword argument 'method_whitelist'
+2026-10-02T12:02:23.755512+00:00,rword_index,11.0,0.0,0.0042,2026-10-02,
+2026-10-02T12:02:23.755512+00:00,lipstick_proxy,,,0.0,,"StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=""utf-8""><meta name=""robots"" content=""noindex', 'nofollow""></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=""0sgerswoytp2xj4c6mk9ta"">']"
+2026-10-02T12:02:23.755512+00:00,_composite,15.462665603313535,15.462665603313535,1.0,2026-10-02,
