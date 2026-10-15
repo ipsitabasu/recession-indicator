@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-14T11:22:41.958557+00:00",
-  "composite": 16.39,
+  "timestamp": "2026-10-15T10:59:44.269040+00:00",
+  "composite": 17.44,
   "tier": "Low",
   "indicators": [
     {
@@ -10,10 +10,10 @@
       "cluster": "yield-curve",
       "weight": 0.1037,
       "auc": 0.92,
-      "value": 0.95,
-      "score": 27.5,
-      "contribution": 3.24,
-      "as_of": "2026-10-13",
+      "value": 0.91,
+      "score": 29.5,
+      "contribution": 3.48,
+      "as_of": "2026-10-14",
       "error": null
     },
     {
@@ -23,10 +23,10 @@
       "cluster": "yield-curve",
       "weight": 0.0963,
       "auc": 0.89,
-      "value": 0.42,
-      "score": 54.0,
-      "contribution": 5.92,
-      "as_of": "2026-10-13",
+      "value": 0.37,
+      "score": 56.5,
+      "contribution": 6.19,
+      "as_of": "2026-10-14",
       "error": null
     },
     {
@@ -62,10 +62,10 @@
       "cluster": "credit",
       "weight": 0.1357,
       "auc": 0.85,
-      "value": 3.11,
+      "value": 3.16,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-13",
       "error": null
     },
     {
@@ -140,9 +140,9 @@
       "cluster": "sentiment",
       "weight": 0.0376,
       "auc": 0.68,
-      "value": 2.5755710451964786,
-      "score": 8.49,
-      "contribution": 0.36,
+      "value": 1.9437557423900298,
+      "score": 21.12,
+      "contribution": 0.9,
       "as_of": "2026-08-01",
       "error": null
     },
@@ -157,7 +157,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"gz6cnpkjboquhccttnvvhw\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"izbaha8l3qj4i5y24oecza\">']"
     },
     {
       "key": "real_m2_yoy",
@@ -183,7 +183,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"j5j3vzjxotuzgok-9_iqzg\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"bwlpxfhp4gxgxfnyybxu3w\">']"
     },
     {
       "key": "google_trends_recession",
@@ -205,10 +205,10 @@
       "cluster": "sentiment",
       "weight": 0.0042,
       "auc": 0.52,
-      "value": 0.0,
+      "value": 1.0,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-10-10",
+      "as_of": "2026-10-15",
       "error": null
     },
     {
@@ -222,7 +222,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"cefh9uq3g6qke75w4t2gig\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"euejgnbebvg9kixafbnldw\">']"
     }
   ]
 }
