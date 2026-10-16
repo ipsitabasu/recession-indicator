@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-15T10:59:44.269040+00:00",
-  "composite": 17.44,
+  "timestamp": "2026-10-16T10:54:20.189054+00:00",
+  "composite": 17.73,
   "tier": "Low",
   "indicators": [
     {
@@ -10,10 +10,10 @@
       "cluster": "yield-curve",
       "weight": 0.1037,
       "auc": 0.92,
-      "value": 0.91,
-      "score": 29.5,
-      "contribution": 3.48,
-      "as_of": "2026-10-14",
+      "value": 0.82,
+      "score": 34.0,
+      "contribution": 4.01,
+      "as_of": "2026-10-15",
       "error": null
     },
     {
@@ -23,10 +23,10 @@
       "cluster": "yield-curve",
       "weight": 0.0963,
       "auc": 0.89,
-      "value": 0.37,
-      "score": 56.5,
-      "contribution": 6.19,
-      "as_of": "2026-10-14",
+      "value": 0.33,
+      "score": 58.5,
+      "contribution": 6.41,
+      "as_of": "2026-10-15",
       "error": null
     },
     {
@@ -49,10 +49,10 @@
       "cluster": "labor",
       "weight": 0.0922,
       "auc": 0.82,
-      "value": -12.967032967032965,
+      "value": -11.679644048943272,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-10-04",
+      "as_of": "2026-10-11",
       "error": null
     },
     {
@@ -62,10 +62,10 @@
       "cluster": "credit",
       "weight": 0.1357,
       "auc": 0.85,
-      "value": 3.16,
+      "value": 3.25,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-14",
       "error": null
     },
     {
@@ -140,10 +140,10 @@
       "cluster": "sentiment",
       "weight": 0.0376,
       "auc": 0.68,
-      "value": 1.9437557423900298,
-      "score": 21.12,
-      "contribution": 0.9,
-      "as_of": "2026-08-01",
+      "value": 2.47803903246846,
+      "score": 10.44,
+      "contribution": 0.45,
+      "as_of": "2026-09-01",
       "error": null
     },
     {
@@ -157,7 +157,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"izbaha8l3qj4i5y24oecza\">']"
+      "error": "StooqFetchError: Failed to fetch ^spx: HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s=%5Espx&i=d (Caused by ConnectTimeoutError(<HTTPSConnection(host='stooq.com', port=443) at 0x7f8be3b1c450>, 'Connection to stooq.com timed out. (connect timeout=30.0)'))"
     },
     {
       "key": "real_m2_yoy",
@@ -183,7 +183,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"bwlpxfhp4gxgxfnyybxu3w\">']"
+      "error": "StooqFetchError: Failed to fetch hg.f: HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s=hg.f&i=d (Caused by ConnectTimeoutError(<HTTPSConnection(host='stooq.com', port=443) at 0x7f8be3b074d0>, 'Connection to stooq.com timed out. (connect timeout=30.0)'))"
     },
     {
       "key": "google_trends_recession",
@@ -205,10 +205,10 @@
       "cluster": "sentiment",
       "weight": 0.0042,
       "auc": 0.52,
-      "value": 1.0,
+      "value": 10.0,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-16",
       "error": null
     },
     {
@@ -222,7 +222,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"euejgnbebvg9kixafbnldw\">']"
+      "error": "StooqFetchError: Failed to fetch el.us: HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s=el.us&i=d (Caused by ConnectTimeoutError(<HTTPSConnection(host='stooq.com', port=443) at 0x7f8be3260d10>, 'Connection to stooq.com timed out. (connect timeout=30.0)'))"
     }
   ]
 }
