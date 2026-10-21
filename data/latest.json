@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-20T11:03:05.455544+00:00",
-  "composite": 16.45,
+  "timestamp": "2026-10-21T11:19:58.789928+00:00",
+  "composite": 20.22,
   "tier": "Low",
   "indicators": [
     {
@@ -10,10 +10,10 @@
       "cluster": "yield-curve",
       "weight": 0.1037,
       "auc": 0.92,
-      "value": 0.88,
-      "score": 31.0,
-      "contribution": 3.66,
-      "as_of": "2026-10-19",
+      "value": 0.86,
+      "score": 32.0,
+      "contribution": 3.77,
+      "as_of": "2026-10-20",
       "error": null
     },
     {
@@ -23,10 +23,10 @@
       "cluster": "yield-curve",
       "weight": 0.0963,
       "auc": 0.89,
-      "value": 0.38,
-      "score": 56.0,
-      "contribution": 6.13,
-      "as_of": "2026-10-19",
+      "value": 0.33,
+      "score": 58.5,
+      "contribution": 6.41,
+      "as_of": "2026-10-20",
       "error": null
     },
     {
@@ -62,10 +62,10 @@
       "cluster": "credit",
       "weight": 0.1357,
       "auc": 0.85,
-      "value": 3.31,
+      "value": 3.29,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-10-16",
+      "as_of": "2026-10-19",
       "error": null
     },
     {
@@ -88,10 +88,10 @@
       "cluster": "housing",
       "weight": 0.1238,
       "auc": 0.76,
-      "value": 4.157386785449146,
-      "score": 2.81,
-      "contribution": 0.4,
-      "as_of": "2026-08-01",
+      "value": -3.0470914127423865,
+      "score": 26.82,
+      "contribution": 3.78,
+      "as_of": "2026-09-01",
       "error": null
     },
     {
@@ -157,7 +157,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"c0g-ainvykp62bok7j3rhg\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"iowqazdmxpmousw0c4unpg\">']"
     },
     {
       "key": "real_m2_yoy",
@@ -183,7 +183,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"abzrbx0asee-_ehagtxs5q\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"iw_tw0r6alcrxetjeoowuq\">']"
     },
     {
       "key": "google_trends_recession",
@@ -205,10 +205,10 @@
       "cluster": "sentiment",
       "weight": 0.0042,
       "auc": 0.52,
-      "value": 7.0,
+      "value": 17.0,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-10-20",
+      "as_of": "2026-10-21",
       "error": null
     },
     {
@@ -222,7 +222,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"wz726a-lx_ch5vf0koya_a\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"w8xpwbvmmzpb-fbb-ytgra\">']"
     }
   ]
 }
