@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-24T10:27:35.230471+00:00",
-  "composite": 20.8,
+  "timestamp": "2026-10-25T10:54:56.654125+00:00",
+  "composite": 20.9,
   "tier": "Low",
   "indicators": [
     {
@@ -12,7 +12,7 @@
       "auc": 0.92,
       "value": 0.78,
       "score": 36.0,
-      "contribution": 4.25,
+      "contribution": 4.27,
       "as_of": "2026-10-23",
       "error": null
     },
@@ -25,7 +25,7 @@
       "auc": 0.89,
       "value": 0.31,
       "score": 59.5,
-      "contribution": 6.52,
+      "contribution": 6.55,
       "as_of": "2026-10-23",
       "error": null
     },
@@ -90,7 +90,7 @@
       "auc": 0.76,
       "value": -3.0470914127423865,
       "score": 26.82,
-      "contribution": 3.78,
+      "contribution": 3.8,
       "as_of": "2026-09-01",
       "error": null
     },
@@ -129,7 +129,7 @@
       "auc": 0.66,
       "value": 48.1,
       "score": 100.0,
-      "contribution": 3.8,
+      "contribution": 3.82,
       "as_of": "2026-09-01",
       "error": null
     },
@@ -157,7 +157,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"rcinxgclispq3osynmc4fg\">']"
+      "error": "StooqFetchError: Failed to fetch ^spx: HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s=%5Espx&i=d (Caused by ConnectTimeoutError(<HTTPSConnection(host='stooq.com', port=443) at 0x7fa93cba1e10>, 'Connection to stooq.com timed out. (connect timeout=30.0)'))"
     },
     {
       "key": "real_m2_yoy",
@@ -183,7 +183,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"skjcbr4llwwhmeflnpqspa\">']"
+      "error": "StooqFetchError: Failed to fetch hg.f: HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s=hg.f&i=d (Caused by ConnectTimeoutError(<HTTPSConnection(host='stooq.com', port=443) at 0x7fa93ca988d0>, 'Connection to stooq.com timed out. (connect timeout=30.0)'))"
     },
     {
       "key": "google_trends_recession",
@@ -205,11 +205,11 @@
       "cluster": "sentiment",
       "weight": 0.0042,
       "auc": 0.52,
-      "value": 6.0,
-      "score": 0.0,
+      "value": null,
+      "score": null,
       "contribution": 0.0,
-      "as_of": "2026-10-24",
-      "error": null
+      "as_of": null,
+      "error": "RwordFetchError: Failed GDELT fetch: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=recession%20sourcecountry:US%20sourcelang:english&mode=timelinevolraw&format=json&timespan=24m"
     },
     {
       "key": "lipstick_proxy",
@@ -222,7 +222,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"5i63g2tzof0tnayk1uybzq\">']"
+      "error": "StooqFetchError: Failed to fetch el.us: HTTPSConnectionPool(host='stooq.com', port=443): Max retries exceeded with url: /q/d/l/?s=el.us&i=d (Caused by ConnectTimeoutError(<HTTPSConnection(host='stooq.com', port=443) at 0x7fa93cc1c890>, 'Connection to stooq.com timed out. (connect timeout=30.0)'))"
     }
   ]
 }
