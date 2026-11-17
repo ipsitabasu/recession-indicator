@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-16T15:05:08.073219+00:00",
-  "composite": 20.99,
+  "timestamp": "2026-11-17T15:38:20.618479+00:00",
+  "composite": 21.01,
   "tier": "Low",
   "indicators": [
     {
@@ -10,10 +10,10 @@
       "cluster": "yield-curve",
       "weight": 0.1037,
       "auc": 0.92,
-      "value": 0.83,
-      "score": 33.5,
-      "contribution": 3.97,
-      "as_of": "2026-11-13",
+      "value": 0.78,
+      "score": 36.0,
+      "contribution": 4.27,
+      "as_of": "2026-11-16",
       "error": null
     },
     {
@@ -23,10 +23,10 @@
       "cluster": "yield-curve",
       "weight": 0.0963,
       "auc": 0.89,
-      "value": 0.27,
-      "score": 61.5,
-      "contribution": 6.77,
-      "as_of": "2026-11-13",
+      "value": 0.29,
+      "score": 60.5,
+      "contribution": 6.66,
+      "as_of": "2026-11-16",
       "error": null
     },
     {
@@ -62,10 +62,10 @@
       "cluster": "credit",
       "weight": 0.1357,
       "auc": 0.85,
-      "value": 3.2,
+      "value": 3.23,
       "score": 0.0,
       "contribution": 0.0,
-      "as_of": "2026-11-12",
+      "as_of": "2026-11-13",
       "error": null
     },
     {
@@ -101,10 +101,10 @@
       "cluster": "activity",
       "weight": 0.0419,
       "auc": 0.72,
-      "value": 2.2451508832670886,
-      "score": 12.58,
-      "contribution": 0.6,
-      "as_of": "2026-09-01",
+      "value": 2.1496845963475453,
+      "score": 14.17,
+      "contribution": 0.68,
+      "as_of": "2026-10-01",
       "error": null
     },
     {
@@ -140,9 +140,9 @@
       "cluster": "sentiment",
       "weight": 0.0376,
       "auc": 0.68,
-      "value": 2.47803903246846,
-      "score": 10.44,
-      "contribution": 0.45,
+      "value": 2.7495082725905284,
+      "score": 5.01,
+      "contribution": 0.22,
       "as_of": "2026-09-01",
       "error": null
     },
@@ -157,7 +157,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"t3si11ta_rol5r5-grb1jw\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"rbssjm7qwmadltaq0azbfq\">']"
     },
     {
       "key": "real_m2_yoy",
@@ -183,7 +183,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"jhcer_ebg0-txkp-h97jfw\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"sm-zmwrtxhm55nvfphi9ja\">']"
     },
     {
       "key": "google_trends_recession",
@@ -222,7 +222,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"ef-d8jcctyopidfjamj-qg\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"nzzz6fncrop2jl_f3_qbew\">']"
     }
   ]
 }
