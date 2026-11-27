@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-26T16:31:49.297586+00:00",
-  "composite": 26.52,
+  "timestamp": "2026-11-27T16:17:48.486980+00:00",
+  "composite": 26.4,
   "tier": "Moderate",
   "indicators": [
     {
@@ -12,7 +12,7 @@
       "auc": 0.92,
       "value": 0.51,
       "score": 49.5,
-      "contribution": 5.87,
+      "contribution": 5.84,
       "as_of": "2026-11-25",
       "error": null
     },
@@ -25,7 +25,7 @@
       "auc": 0.89,
       "value": 0.24,
       "score": 63.0,
-      "contribution": 6.93,
+      "contribution": 6.9,
       "as_of": "2026-11-25",
       "error": null
     },
@@ -64,7 +64,7 @@
       "auc": 0.85,
       "value": 3.72,
       "score": 4.89,
-      "contribution": 0.76,
+      "contribution": 0.75,
       "as_of": "2026-11-24",
       "error": null
     },
@@ -90,7 +90,7 @@
       "auc": 0.76,
       "value": -8.53314527503526,
       "score": 45.11,
-      "contribution": 6.38,
+      "contribution": 6.35,
       "as_of": "2026-10-01",
       "error": null
     },
@@ -103,7 +103,7 @@
       "auc": 0.72,
       "value": 1.6593883857727532,
       "score": 22.34,
-      "contribution": 1.07,
+      "contribution": 1.06,
       "as_of": "2026-10-01",
       "error": null
     },
@@ -129,7 +129,7 @@
       "auc": 0.66,
       "value": 48.0,
       "score": 100.0,
-      "contribution": 3.82,
+      "contribution": 3.8,
       "as_of": "2026-10-01",
       "error": null
     },
@@ -142,7 +142,7 @@
       "auc": 0.68,
       "value": 2.7495082725905284,
       "score": 5.01,
-      "contribution": 0.22,
+      "contribution": 0.21,
       "as_of": "2026-09-01",
       "error": null
     },
@@ -157,7 +157,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"7la23biielr_-00ghqonqa\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for ^spx: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"ps237yjzpnew52qrjyxucq\">']"
     },
     {
       "key": "real_m2_yoy",
@@ -168,7 +168,7 @@
       "auc": 0.58,
       "value": 2.0812440384932795,
       "score": 41.7,
-      "contribution": 1.48,
+      "contribution": 1.47,
       "as_of": "2026-10-01",
       "error": null
     },
@@ -183,7 +183,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"alozufxbx7v3mdxgb2puhq\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for hg.f: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"n6k77al2t1ull1f-b70orq\">']"
     },
     {
       "key": "google_trends_recession",
@@ -205,11 +205,11 @@
       "cluster": "sentiment",
       "weight": 0.0042,
       "auc": 0.52,
-      "value": null,
-      "score": null,
+      "value": 13.0,
+      "score": 0.0,
       "contribution": 0.0,
-      "as_of": null,
-      "error": "RwordFetchError: Failed GDELT fetch: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=recession%20sourcecountry:US%20sourcelang:english&mode=timelinevolraw&format=json&timespan=24m"
+      "as_of": "2026-11-27",
+      "error": null
     },
     {
       "key": "lipstick_proxy",
@@ -222,7 +222,7 @@
       "score": null,
       "contribution": 0.0,
       "as_of": null,
-      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"1jitswr3t7-pnqg0lnfkuq\">']"
+      "error": "StooqFetchError: Unexpected Stooq schema for el.us: ['<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex', 'nofollow\"></head><body><noscript>this site requires javascript to verify your browser. please enable javascript and reload.</noscript><script nonce=\"v9dqrvtixgkqzqapzg5hdw\">']"
     }
   ]
 }
